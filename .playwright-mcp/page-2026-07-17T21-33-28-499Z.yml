@@ -1,0 +1,204 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#main"
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - button [ref=e10] [cursor=pointer]:
+              - paragraph [ref=e15]: New World Metro Auckland
+            - link [ref=e19] [cursor=pointer]:
+              - /url: /%252Fshop%252Ffulfillment
+              - paragraph [ref=e26]: Collect from New World Metro Auckland
+            - link "Book a slot" [ref=e30] [cursor=pointer]:
+              - /url: /%2Fshop%2Ffulfillment
+          - generic [ref=e35]:
+            - button [ref=e36] [cursor=pointer]:
+              - paragraph [ref=e37]: Log in
+            - text: or
+            - button [ref=e38] [cursor=pointer]:
+              - paragraph [ref=e39]: join
+          - generic [ref=e40]:
+            - paragraph [ref=e41]: Hi there,
+            - generic [ref=e42]: You’re currently shopping from New World Metro Auckland.
+            - generic [ref=e43]:
+              - button "Change store" [ref=e44] [cursor=pointer]
+              - button "Start shopping" [ref=e45] [cursor=pointer]
+            - button "Close" [ref=e46] [cursor=pointer]
+        - generic [ref=e52]:
+          - link [ref=e54] [cursor=pointer]:
+            - /url: /
+            - img "New World" [ref=e55]
+          - generic [ref=e59]:
+            - generic [ref=e60]: Search
+            - generic [ref=e62]:
+              - combobox "Search for" [ref=e66] [cursor=pointer]:
+                - option "Products" [selected]
+                - option "Recipes"
+                - option "Articles"
+              - textbox "Search" [ref=e67]:
+                - /placeholder: Search here...
+            - button "Search" [disabled] [ref=e68] [cursor=pointer]
+          - button "$0.00 0" [ref=e72] [cursor=pointer]:
+            - paragraph [ref=e74]: $0.00
+            - generic [ref=e75]: "0"
+        - generic [ref=e81]:
+          - button [ref=e83] [cursor=pointer]:
+            - paragraph [ref=e84]: Groceries
+          - link [ref=e88] [cursor=pointer]:
+            - /url: /shop/specials?pg=1
+            - paragraph [ref=e89]: Specials
+          - link [ref=e91] [cursor=pointer]:
+            - /url: /shop/everyday-low-price?pg=1
+            - paragraph [ref=e92]: Everyday Low Price
+          - link [ref=e94] [cursor=pointer]:
+            - /url: /mailer
+            - paragraph [ref=e95]: Mailer
+          - button [ref=e97] [cursor=pointer]:
+            - paragraph [ref=e98]: Recipes
+          - button [ref=e102] [cursor=pointer]:
+            - paragraph [ref=e103]: Discover
+          - button [ref=e107] [cursor=pointer]:
+            - paragraph [ref=e108]: About Club+
+          - link [ref=e112] [cursor=pointer]:
+            - /url: /shop/my-account/my-lists
+            - paragraph [ref=e113]: My Lists
+          - link [ref=e115] [cursor=pointer]:
+            - /url: /promotions/3-ways-to-save
+            - paragraph [ref=e116]: Ways to save
+    - main [ref=e117]:
+      - generic [ref=e121]:
+        - heading "Something's missing here..." [level=1] [ref=e122]
+        - paragraph [ref=e123]:
+          - text: Go to
+          - link "home page" [ref=e124] [cursor=pointer]:
+            - /url: /
+      - region "Notifications Alt+T"
+    - contentinfo [ref=e127]:
+      - generic [ref=e128]:
+        - generic [ref=e129]:
+          - generic [ref=e130]:
+            - generic [ref=e132]:
+              - paragraph [ref=e133]: Explore New World
+              - generic [ref=e134]:
+                - paragraph [ref=e135]:
+                  - link "New World Clubcard" [ref=e136] [cursor=pointer]:
+                    - /url: /clubcard
+                - paragraph [ref=e137]:
+                  - link "Christmas Club" [ref=e138] [cursor=pointer]:
+                    - /url: /who-we-are/christmas-club
+                - paragraph [ref=e139]:
+                  - link "Gift Cards" [ref=e140] [cursor=pointer]:
+                    - /url: /discover/in-store/gift-cards
+                - paragraph [ref=e141]:
+                  - link "Fuel discounts" [ref=e142] [cursor=pointer]:
+                    - /url: /fuel
+            - generic [ref=e144]:
+              - paragraph [ref=e145]: Legal
+              - generic [ref=e146]:
+                - paragraph [ref=e147]:
+                  - link "Privacy Policy" [ref=e148] [cursor=pointer]:
+                    - /url: /privacy-policy
+                - paragraph [ref=e149]:
+                  - link "Website T&Cs" [ref=e150] [cursor=pointer]:
+                    - /url: /terms-and-conditions
+                - paragraph [ref=e151]:
+                  - link "Online shopping T&Cs" [ref=e152] [cursor=pointer]:
+                    - /url: /shop/terms-and-conditions
+                - paragraph [ref=e153]:
+                  - link "Club+ T&Cs" [ref=e154] [cursor=pointer]:
+                    - /url: https://www.clubplus.co.nz/terms
+                - paragraph [ref=e155]:
+                  - link "Liquor Licence" [ref=e156] [cursor=pointer]:
+                    - /url: /shop/liquor-licence
+                - paragraph [ref=e157]:
+                  - link "Clubcard T&Cs" [ref=e158] [cursor=pointer]:
+                    - /url: /clubcard/terms
+                - paragraph [ref=e159]:
+                  - link "North Island refund & returns policy" [ref=e160] [cursor=pointer]:
+                    - /url: /north-island-stores-refund-and-returns-policy
+                - paragraph [ref=e161]:
+                  - link "South Island refund & returns policy" [ref=e162] [cursor=pointer]:
+                    - /url: /south-island-stores-refund-and-returns-policy
+            - generic [ref=e164]:
+              - paragraph [ref=e165]: Customer service
+              - generic [ref=e166]:
+                - paragraph [ref=e167]:
+                  - link "Contact us" [ref=e168] [cursor=pointer]:
+                    - /url: /who-we-are/contact-us
+                - paragraph [ref=e169]:
+                  - link "Store finder" [ref=e170] [cursor=pointer]:
+                    - /url: /store-finder
+                - paragraph [ref=e171]:
+                  - link "FAQs" [ref=e172] [cursor=pointer]:
+                    - /url: /shop/frequently-asked-questions
+                - paragraph [ref=e173]:
+                  - link "Scam alert" [ref=e174] [cursor=pointer]:
+                    - /url: /scam-alert
+                - paragraph [ref=e175]:
+                  - link "Surveys" [ref=e176] [cursor=pointer]:
+                    - /url: /who-we-are/surveys
+            - generic [ref=e178]:
+              - paragraph [ref=e179]: More
+              - generic [ref=e180]:
+                - paragraph [ref=e181]:
+                  - link "Club+" [ref=e182] [cursor=pointer]:
+                    - /url: https://www.clubplus.co.nz
+                - paragraph [ref=e183]:
+                  - link "Pams" [ref=e184] [cursor=pointer]:
+                    - /url: /who-we-are/own-brands
+                - paragraph [ref=e185]:
+                  - link "About Foodstuffs" [ref=e186] [cursor=pointer]:
+                    - /url: https://www.foodstuffs.co.nz/who-we-are
+                - paragraph [ref=e187]:
+                  - link "Become a supplier" [ref=e188] [cursor=pointer]:
+                    - /url: https://www.foodstuffs.co.nz/partnering-with-us/Becoming-a-supplier
+                - paragraph [ref=e189]:
+                  - link "Jobs" [ref=e190] [cursor=pointer]:
+                    - /url: /who-we-are/jobs
+                - paragraph [ref=e191]:
+                  - link "News" [ref=e192] [cursor=pointer]:
+                    - /url: /who-we-are/news
+          - generic [ref=e193]:
+            - paragraph [ref=e194]: Follow us
+            - generic [ref=e195]:
+              - generic [ref=e196]:
+                - link "facebook" [ref=e197] [cursor=pointer]:
+                  - /url: https://www.facebook.com/newworld/
+                - link "Instagram" [ref=e200] [cursor=pointer]:
+                  - /url: https://www.instagram.com/newworldnz/
+              - generic [ref=e203]:
+                - link "Here for NZ" [ref=e204] [cursor=pointer]:
+                  - /url: /who-we-are/here-for-nz
+                - link "Proudly Locally Owned" [ref=e217] [cursor=pointer]:
+                  - /url: /who-we-are
+          - generic [ref=e241]:
+            - paragraph [ref=e242]: Download the New World app
+            - generic [ref=e243]:
+              - link [ref=e244] [cursor=pointer]:
+                - /url: https://apps.apple.com/nz/app/new-world-nz/id1313574159
+                - img "App Store" [ref=e245]
+              - link [ref=e274] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=nz.co.newworld.clubcard&amp;hl=en
+                - img "Google Play" [ref=e275]
+        - generic [ref=e295]:
+          - separator [ref=e296]
+          - generic [ref=e297]:
+            - button "Women’s Refuge" [ref=e299] [cursor=pointer]
+            - paragraph [ref=e311]: © 2026 New World. All rights reserved.
+    - dialog "Modal dialog":
+      - generic:
+        - button "Close modal"
+  - button [ref=e312] [cursor=pointer]
+  - alert [ref=e317]
+  - dialog [ref=e318]:
+    - generic [ref=e321]:
+      - button "Close" [ref=e322] [cursor=pointer]
+      - generic [ref=e326]:
+        - img "Start collecting stickers now!" [ref=e327]
+        - generic [ref=e328]:
+          - heading "Start collecting stickers now!" [level=3] [ref=e329]
+          - paragraph [ref=e330]: This year, we’ve partnered with SMEG again to bring you premium knives and accessories so you can prep like a pro! Every $20 spent = 1 sticker, plus check out bonus sticker products so you can collect faster.
+          - link "Learn more" [ref=e333] [cursor=pointer]:
+            - /url: https://www.newworld.co.nz/smeg-knives

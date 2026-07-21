@@ -1,0 +1,109 @@
+:root {
+  --brand-yellow: #ffd600;
+  --brand-green: #125430;
+  --brand-red: #e11a2c;
+  --bg: #f5f7fb;
+  --surface: #ffffff;
+  --text: #202124;
+  --muted: #5f6368;
+  --border: #e4e7ec;
+  --radius: 12px;
+  --shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+}
+
+html, body {
+  color-scheme: light !important;
+}
+
+body, .gradio-container, .gradio-container .wrap {
+  background: var(--bg) !important;
+  color: var(--text) !important;
+  font-family: -apple-system, "Segoe UI", Roboto, sans-serif !important;
+}
+
+#app-title {
+  margin-bottom: 0.75rem !important;
+}
+
+#app-title .app-header {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+#app-title .brand-mark {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+  padding: 0.25rem 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  background: var(--surface);
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
+}
+
+#app-title .brand-dot {
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+#app-title .brand-green { background: var(--brand-green); }
+#app-title .brand-yellow { background: var(--brand-yellow); }
+#app-title .brand-red { background: var(--brand-red); }
+
+#app-title .app-title-text {
+  font-size: 1.35rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  color: var(--brand-green);
+}
+
+#results-box {
+  background: var(--surface) !important;
+  color: var(--text) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: var(--radius) !important;
+  padding: 1rem !important;
+}
+
+#region-wrapper {
+  background: var(--surface) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: var(--radius) !important;
+  box-shadow: var(--shadow) !important;
+  padding: 0.85rem 1rem !important;
+}
+
+#region-dropdown label,
+.gradio-dropdown label {
+  color: var(--muted) !important;
+  font-weight: 600 !important;
+}
+
+#region-dropdown input,
+.gradio-dropdown input,
+.gradio-dropdown .wrap {
+  background: var(--surface) !important;
+  color: var(--text) !important;
+  border: 1px solid var(--border) !important;
+  border-radius: var(--radius) !important;
+  padding: 8px 12px !important;
+}
+
+#submit-btn,
+.gradio-button button {
+  background: var(--brand-green) !important;
+  color: #ffffff !important;
+  border: none !important;
+  border-radius: var(--radius) !important;
+  font-weight: 600 !important;
+  box-shadow: none !important;
+}
+
+#submit-btn:hover,
+.gradio-button button:hover {
+  background: green !important;
+  color: #ffffff !important;
+}

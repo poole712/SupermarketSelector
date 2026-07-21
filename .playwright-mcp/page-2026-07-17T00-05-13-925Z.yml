@@ -1,0 +1,5 @@
+- generic [ref=e2]:
+  - generic "Loading, Please wait."
+  - button "Olive Roundel Ask Olive" [ref=e5] [cursor=pointer]:
+    - img "Olive Roundel" [ref=e6]
+    - generic: Ask Olive

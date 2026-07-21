@@ -1,0 +1,966 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#main"
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - button [ref=e10] [cursor=pointer]:
+              - paragraph [ref=e15]: New World Metro Auckland
+            - link [ref=e19] [cursor=pointer]:
+              - /url: /%252Fshop%252Ffulfillment
+              - paragraph [ref=e26]: Collect from New World Metro Auckland
+            - link "Book a slot" [ref=e30] [cursor=pointer]:
+              - /url: /%2Fshop%2Ffulfillment
+          - generic [ref=e35]:
+            - button [ref=e36] [cursor=pointer]:
+              - paragraph [ref=e37]: Log in
+            - text: or
+            - button [ref=e38] [cursor=pointer]:
+              - paragraph [ref=e39]: join
+          - generic [ref=e40]:
+            - paragraph [ref=e41]: Hi there,
+            - generic [ref=e42]: You’re currently shopping from New World Metro Auckland.
+            - generic [ref=e43]:
+              - button "Change store" [ref=e44] [cursor=pointer]
+              - button "Start shopping" [ref=e45] [cursor=pointer]
+            - button "Close" [ref=e46] [cursor=pointer]
+        - generic [ref=e52]:
+          - link [ref=e54] [cursor=pointer]:
+            - /url: /
+            - img "New World" [ref=e55]
+          - generic [ref=e59]:
+            - generic [ref=e60]: Search
+            - generic [ref=e62]:
+              - combobox "Search for" [ref=e66] [cursor=pointer]:
+                - option "Products" [selected]
+                - option "Recipes"
+                - option "Articles"
+              - textbox "Search" [ref=e67]:
+                - /placeholder: Search here...
+            - button "Search" [disabled] [ref=e68] [cursor=pointer]
+          - button "$0.00 0" [ref=e72] [cursor=pointer]:
+            - paragraph [ref=e74]: $0.00
+            - generic [ref=e75]: "0"
+        - generic [ref=e81]:
+          - button [ref=e83] [cursor=pointer]:
+            - paragraph [ref=e84]: Groceries
+          - link [ref=e88] [cursor=pointer]:
+            - /url: /shop/specials?pg=1
+            - paragraph [ref=e89]: Specials
+          - link [ref=e91] [cursor=pointer]:
+            - /url: /shop/everyday-low-price?pg=1
+            - paragraph [ref=e92]: Everyday Low Price
+          - link [ref=e94] [cursor=pointer]:
+            - /url: /mailer
+            - paragraph [ref=e95]: Mailer
+          - button [ref=e97] [cursor=pointer]:
+            - paragraph [ref=e98]: Recipes
+          - button [ref=e102] [cursor=pointer]:
+            - paragraph [ref=e103]: Discover
+          - button [ref=e107] [cursor=pointer]:
+            - paragraph [ref=e108]: About Club+
+          - link [ref=e112] [cursor=pointer]:
+            - /url: /shop/my-account/my-lists
+            - paragraph [ref=e113]: My Lists
+          - link [ref=e115] [cursor=pointer]:
+            - /url: /promotions/3-ways-to-save
+            - paragraph [ref=e116]: Ways to save
+    - main [ref=e117]:
+      - generic [ref=e118]:
+        - generic [ref=e120]:
+          - generic [ref=e121]:
+            - heading "Collect faster with bonus stickers" [level=1] [ref=e122]
+            - paragraph [ref=e123]: Look out for bonus sticker products to collect your SMEG knives and accessories faster! Bonus stickers eligible with a minimum $20 spend.
+            - link "Shop now" [ref=e124] [cursor=pointer]:
+              - /url: https://www.newworld.co.nz/shop/category/bonus-sticker-products?pg=1
+          - img "FS31824_NWNZ_26_SMEGknives_Banners - 1050x700 3.jpg" [ref=e128]
+        - region [ref=e131]:
+          - generic [ref=e132]:
+            - generic [ref=e133]:
+              - group [ref=e134]:
+                - button [ref=e136] [cursor=pointer]:
+                  - paragraph [ref=e142]: Book slot
+              - group [ref=e143]:
+                - link [ref=e145] [cursor=pointer]:
+                  - /url: /shop/specials?pg=1
+                  - paragraph [ref=e151]: Specials
+              - group [ref=e152]:
+                - button [ref=e154] [cursor=pointer]:
+                  - paragraph [ref=e159]: Log in
+              - group [ref=e160]:
+                - link [ref=e162] [cursor=pointer]:
+                  - /url: https://login.clubplus.co.nz/?banner=MNW&channel=WEB
+                  - paragraph [ref=e169]: Join
+              - group [ref=e170]
+              - group [ref=e172]:
+                - link "Beer, cider & wine" [ref=e174] [cursor=pointer]:
+                  - /url: /shop/category/beer-cider-and-wine?pg=1
+                  - paragraph [ref=e177]: Beer, cider & wine
+              - group [ref=e178]:
+                - link "Butchery" [ref=e180] [cursor=pointer]:
+                  - /url: /shop/category/fresh-foods-and-bakery/butchery?pg=1
+                  - paragraph [ref=e183]: Butchery
+              - group [ref=e184]:
+                - link "Drinks" [ref=e186] [cursor=pointer]:
+                  - /url: /shop/category/drinks?pg=1
+                  - paragraph [ref=e189]: Drinks
+              - group [ref=e190]:
+                - link "Chilled, frozen & desserts" [ref=e192] [cursor=pointer]:
+                  - /url: /shop/category/chilled-frozen-and-desserts?pg=1
+                  - paragraph [ref=e195]: Chilled, frozen & desserts
+              - group [ref=e196]:
+                - link "Snack foods" [ref=e198] [cursor=pointer]:
+                  - /url: /shop/category/pantry/snack-foods?pg=1
+                  - paragraph [ref=e201]: Snack foods
+              - group [ref=e202]:
+                - link "Fruit & vegetables" [ref=e204] [cursor=pointer]:
+                  - /url: /shop/category/fresh-foods-and-bakery/fruit--vegetables?pg=1
+                  - paragraph [ref=e207]: Fruit & vegetables
+              - group [ref=e208]:
+                - link "Pantry" [ref=e210] [cursor=pointer]:
+                  - /url: /shop/category/pantry?pg=1
+                  - paragraph [ref=e213]: Pantry
+              - group [ref=e214]:
+                - link "Pets" [ref=e216] [cursor=pointer]:
+                  - /url: /shop/category/pets?pg=1
+                  - paragraph [ref=e219]: Pets
+            - generic [ref=e220]:
+              - generic [ref=e221]:
+                - button "Go to slide 1" [disabled] [ref=e222] [cursor=pointer]
+                - button "Go to slide 2" [ref=e223] [cursor=pointer]
+              - generic [ref=e224]:
+                - button "Previous slide" [disabled]
+                - button "Next slide" [ref=e225] [cursor=pointer]
+        - region [ref=e232]:
+          - generic [ref=e233]:
+            - generic [ref=e234]:
+              - heading "Shop Specials" [level=2] [ref=e235]
+              - link [ref=e236] [cursor=pointer]:
+                - /url: /shop/specials?pg=1
+            - region [ref=e240]:
+              - generic [ref=e241]:
+                - generic [ref=e242]:
+                  - group [ref=e243]:
+                    - generic [ref=e245]:
+                      - img "Shop our specials"
+                      - link "View all" [ref=e246] [cursor=pointer]:
+                        - /url: https://www.newworld.co.nz/shop/specials?pg=1
+                  - group [ref=e247]:
+                    - generic [ref=e248]:
+                      - generic [ref=e249]:
+                        - link [ref=e250] [cursor=pointer]:
+                          - /url: /shop/product/5010826_ea_000nw?name=eta-ripple-cut-ready-salted-potato-chips
+                          - generic [ref=e251]:
+                            - paragraph [ref=e252]: Eta Ripple Cut Ready Salted Potato Chips
+                            - paragraph [ref=e253]: 150g
+                        - generic [ref=e255]:
+                          - generic [ref=e256]:
+                            - img "Badge, Club Plus Deal" [ref=e257]
+                            - generic [ref=e266]:
+                              - generic [ref=e267]:
+                                - paragraph [ref=e268]: "1."
+                                - paragraph [ref=e270]: "99"
+                              - paragraph [ref=e271]: $1.33/100g
+                              - paragraph [ref=e272]: Limit 12 assorted
+                          - img "Badge footer, Club Plus Deal" [ref=e273]
+                      - generic [ref=e276]:
+                        - link "Eta Ripple Cut Ready Salted Potato Chips" [ref=e278] [cursor=pointer]:
+                          - /url: /shop/product/5010826_ea_000nw?name=eta-ripple-cut-ready-salted-potato-chips
+                        - generic [ref=e280]:
+                          - generic [ref=e286]:
+                            - generic [ref=e287]:
+                              - paragraph [ref=e288]: "2"
+                              - generic [ref=e289]:
+                                - paragraph [ref=e290]: "79"
+                                - paragraph [ref=e291]: ea
+                            - paragraph [ref=e293]: $1.86/100g
+                            - button "Add to list" [ref=e295] [cursor=pointer]
+                          - generic [ref=e302]:
+                            - spinbutton "Quantity" [ref=e303]: "1"
+                            - generic [ref=e304]: ea
+                            - button "Add" [ref=e305] [cursor=pointer]
+                  - group [ref=e307]:
+                    - generic [ref=e308]:
+                      - generic [ref=e309]:
+                        - link [ref=e310] [cursor=pointer]:
+                          - /url: /shop/product/5221249_ea_000nw?name=copper-kettle-honey-soy-chicken-potato-chips
+                          - generic [ref=e311]:
+                            - paragraph [ref=e312]: Copper Kettle Honey Soy Chicken Potato Chips
+                            - paragraph [ref=e313]: 150g
+                        - generic [ref=e315]:
+                          - generic [ref=e316]:
+                            - img "Badge, Club Plus Deal" [ref=e317]
+                            - generic [ref=e326]:
+                              - generic [ref=e327]:
+                                - generic [ref=e328]: 2 for
+                                - generic [ref=e329]:
+                                  - paragraph [ref=e330]: "6."
+                                  - paragraph [ref=e332]: "00"
+                              - paragraph [ref=e333]: $2.00/100g
+                              - button [ref=e334] [cursor=pointer]:
+                                - paragraph [ref=e335]: See all
+                          - img "Badge footer, Club Plus Deal" [ref=e336]
+                      - img "Buy 2 for SMEG Bonus Sticker Week 2"
+                      - generic [ref=e339]:
+                        - link "Copper Kettle Honey Soy Chicken Potato Chips" [ref=e341] [cursor=pointer]:
+                          - /url: /shop/product/5221249_ea_000nw?name=copper-kettle-honey-soy-chicken-potato-chips
+                        - generic [ref=e343]:
+                          - generic [ref=e349]:
+                            - generic [ref=e350]:
+                              - paragraph [ref=e351]: "5"
+                              - generic [ref=e352]:
+                                - paragraph [ref=e353]: "19"
+                                - paragraph [ref=e354]: ea
+                            - paragraph [ref=e356]: $3.46/100g
+                            - button "Add to list" [ref=e358] [cursor=pointer]
+                          - generic [ref=e365]:
+                            - spinbutton "Quantity" [ref=e366]: "1"
+                            - generic [ref=e367]: ea
+                            - button "Add" [ref=e368] [cursor=pointer]
+                  - group [ref=e370]:
+                    - generic [ref=e371]:
+                      - generic [ref=e372]:
+                        - link [ref=e373] [cursor=pointer]:
+                          - /url: /shop/product/5107154_ea_000nw?name=large-croissant
+                          - generic [ref=e374]:
+                            - paragraph [ref=e375]: Large Croissant
+                            - paragraph [ref=e376]: 4pk
+                        - img "Badge, Super Saver" [ref=e380]
+                      - generic [ref=e393]:
+                        - link "Large Croissant" [ref=e395] [cursor=pointer]:
+                          - /url: /shop/product/5107154_ea_000nw?name=large-croissant
+                        - generic [ref=e397]:
+                          - generic [ref=e399]:
+                            - generic [ref=e400]:
+                              - paragraph [ref=e401]: "5"
+                              - generic [ref=e402]:
+                                - paragraph [ref=e403]: "29"
+                                - paragraph [ref=e404]: ea
+                            - paragraph [ref=e406]: $1.32/ea
+                            - button "Add to list" [ref=e408] [cursor=pointer]
+                          - generic [ref=e415]:
+                            - spinbutton "Quantity" [ref=e416]: "1"
+                            - generic [ref=e417]: ea
+                            - button "Add" [ref=e418] [cursor=pointer]
+                  - group [ref=e420]:
+                    - generic [ref=e421]:
+                      - generic [ref=e422]:
+                        - link [ref=e423] [cursor=pointer]:
+                          - /url: /shop/product/5121946_ea_000nw?name=plain-white-rolls
+                          - generic [ref=e424]:
+                            - paragraph [ref=e425]: Plain White Rolls
+                            - paragraph [ref=e426]: 6pk
+                        - img "Badge, Super Saver" [ref=e430]
+                      - generic [ref=e443]:
+                        - link "Plain White Rolls" [ref=e445] [cursor=pointer]:
+                          - /url: /shop/product/5121946_ea_000nw?name=plain-white-rolls
+                        - generic [ref=e447]:
+                          - generic [ref=e449]:
+                            - generic [ref=e450]:
+                              - paragraph [ref=e451]: "3"
+                              - generic [ref=e452]:
+                                - paragraph [ref=e453]: "29"
+                                - paragraph [ref=e454]: ea
+                            - paragraph [ref=e456]: $0.55/ea
+                            - button "Add to list" [ref=e458] [cursor=pointer]
+                          - generic [ref=e465]:
+                            - spinbutton "Quantity" [ref=e466]: "1"
+                            - generic [ref=e467]: ea
+                            - button "Add" [ref=e468] [cursor=pointer]
+                  - group [ref=e470]:
+                    - generic [ref=e471]:
+                      - generic [ref=e472]:
+                        - link [ref=e473] [cursor=pointer]:
+                          - /url: /shop/product/5046533_kgm_000nw?name=white-button-mushrooms
+                          - generic [ref=e474]:
+                            - paragraph [ref=e475]: White Button Mushrooms
+                            - paragraph [ref=e476]: kg
+                        - img "Badge, Super Saver" [ref=e480]
+                      - generic [ref=e493]:
+                        - link "White Button Mushrooms" [ref=e495] [cursor=pointer]:
+                          - /url: /shop/product/5046533_kgm_000nw?name=white-button-mushrooms
+                        - generic [ref=e497]:
+                          - generic [ref=e499]:
+                            - generic [ref=e500]:
+                              - paragraph [ref=e501]: "10"
+                              - generic [ref=e502]:
+                                - paragraph [ref=e503]: "99"
+                                - paragraph [ref=e504]: kg
+                            - paragraph [ref=e506]: $10.99/1kg
+                            - button "Add to list" [ref=e508] [cursor=pointer]
+                          - generic [ref=e515]:
+                            - spinbutton "Quantity" [ref=e516]: "1"
+                            - generic [ref=e519]:
+                              - generic [ref=e520]: Select unit type
+                              - combobox "Select unit type" [ref=e523]:
+                                - option "ea" [selected]
+                                - option "kg"
+                            - button "Add" [ref=e524] [cursor=pointer]
+                  - group [ref=e526]:
+                    - generic [ref=e527]:
+                      - generic [ref=e528]:
+                        - link [ref=e529] [cursor=pointer]:
+                          - /url: /shop/product/5007494_ea_000nw?name=v-blue-guarana-energy-drink
+                          - generic [ref=e530]:
+                            - paragraph [ref=e531]: V Blue Guarana Energy Drink
+                            - paragraph [ref=e532]: 500ml
+                        - generic [ref=e534]:
+                          - generic [ref=e535]:
+                            - img "Badge, Club Plus Deal" [ref=e536]
+                            - generic [ref=e545]:
+                              - generic [ref=e546]:
+                                - paragraph [ref=e547]: "3."
+                                - paragraph [ref=e549]: "49"
+                              - paragraph [ref=e550]: $6.98/1L
+                          - img "Badge footer, Club Plus Deal" [ref=e551]
+                      - generic [ref=e554]:
+                        - link "V Blue Guarana Energy Drink" [ref=e556] [cursor=pointer]:
+                          - /url: /shop/product/5007494_ea_000nw?name=v-blue-guarana-energy-drink
+                        - generic [ref=e558]:
+                          - generic [ref=e559]:
+                            - generic [ref=e564]:
+                              - generic [ref=e578]:
+                                - generic [ref=e579]: "5.0"
+                                - generic [ref=e580]: (1)
+                              - generic [ref=e581]: 5.0 out of 5 stars. 1 review
+                            - generic [ref=e582]:
+                              - generic [ref=e583]:
+                                - paragraph [ref=e584]: "4"
+                                - generic [ref=e585]:
+                                  - paragraph [ref=e586]: "49"
+                                  - paragraph [ref=e587]: ea
+                              - paragraph [ref=e589]: $8.98/1L
+                              - button "Add to list" [ref=e591] [cursor=pointer]
+                          - generic [ref=e598]:
+                            - spinbutton "Quantity" [ref=e599]: "1"
+                            - generic [ref=e600]: ea
+                            - button "Add" [ref=e601] [cursor=pointer]
+                  - group [ref=e603]:
+                    - generic [ref=e604]:
+                      - generic [ref=e605]:
+                        - link [ref=e606] [cursor=pointer]:
+                          - /url: /shop/product/5046917_kgm_000nw?name=imported-mandarins
+                          - generic [ref=e607]:
+                            - paragraph [ref=e608]: Imported Mandarins
+                            - paragraph [ref=e609]: kg
+                        - img "Badge, Super Saver" [ref=e613]
+                      - generic [ref=e626]:
+                        - link "Imported Mandarins" [ref=e628] [cursor=pointer]:
+                          - /url: /shop/product/5046917_kgm_000nw?name=imported-mandarins
+                        - generic [ref=e630]:
+                          - generic [ref=e632]:
+                            - generic [ref=e633]:
+                              - paragraph [ref=e634]: "5"
+                              - generic [ref=e635]:
+                                - paragraph [ref=e636]: "99"
+                                - paragraph [ref=e637]: kg
+                            - paragraph [ref=e639]: $5.99/1kg
+                            - button "Add to list" [ref=e641] [cursor=pointer]
+                          - generic [ref=e648]:
+                            - spinbutton "Quantity" [ref=e649]: "1"
+                            - generic [ref=e652]:
+                              - generic [ref=e653]: Select unit type
+                              - combobox "Select unit type" [ref=e656]:
+                                - option "ea" [selected]
+                                - option "kg"
+                            - button "Add" [ref=e657] [cursor=pointer]
+                  - group [ref=e659]:
+                    - generic [ref=e660]:
+                      - generic [ref=e661]:
+                        - link [ref=e662] [cursor=pointer]:
+                          - /url: /shop/product/5039985_ea_000nw?name=leeks
+                          - generic [ref=e663]:
+                            - paragraph [ref=e664]: Leeks
+                            - paragraph [ref=e665]: ea
+                        - img "Badge, Super Saver" [ref=e669]
+                      - generic [ref=e682]:
+                        - link "Leeks" [ref=e684] [cursor=pointer]:
+                          - /url: /shop/product/5039985_ea_000nw?name=leeks
+                        - generic [ref=e686]:
+                          - generic [ref=e688]:
+                            - generic [ref=e689]:
+                              - paragraph [ref=e690]: "1"
+                              - generic [ref=e691]:
+                                - paragraph [ref=e692]: "99"
+                                - paragraph [ref=e693]: ea
+                            - generic [ref=e694]:
+                              - paragraph
+                            - button "Add to list" [ref=e696] [cursor=pointer]
+                          - generic [ref=e703]:
+                            - spinbutton "Quantity" [ref=e704]: "1"
+                            - generic [ref=e705]: ea
+                            - button "Add" [ref=e706] [cursor=pointer]
+                  - group [ref=e708]:
+                    - generic [ref=e709]:
+                      - generic [ref=e710]:
+                        - link [ref=e711] [cursor=pointer]:
+                          - /url: /shop/product/5223553_ea_000nw?name=meadow-fresh-kalo-natural-greek-yoghurt
+                          - generic [ref=e712]:
+                            - paragraph [ref=e713]: Meadow Fresh Kalo Natural Greek Yoghurt
+                            - paragraph [ref=e714]: 800g
+                        - generic [ref=e716]:
+                          - generic [ref=e717]:
+                            - img "Badge, Club Plus Deal" [ref=e718]
+                            - generic [ref=e727]:
+                              - generic [ref=e728]:
+                                - paragraph [ref=e729]: "7."
+                                - paragraph [ref=e731]: "49"
+                              - paragraph [ref=e732]: $0.94/100g
+                          - img "Badge footer, Club Plus Deal" [ref=e733]
+                      - generic [ref=e736]:
+                        - link "Meadow Fresh Kalo Natural Greek Yoghurt" [ref=e738] [cursor=pointer]:
+                          - /url: /shop/product/5223553_ea_000nw?name=meadow-fresh-kalo-natural-greek-yoghurt
+                        - generic [ref=e740]:
+                          - generic [ref=e742]:
+                            - generic [ref=e743]:
+                              - paragraph [ref=e744]: "9"
+                              - generic [ref=e745]:
+                                - paragraph [ref=e746]: "29"
+                                - paragraph [ref=e747]: ea
+                            - paragraph [ref=e749]: $1.16/100g
+                            - button "Add to list" [ref=e751] [cursor=pointer]
+                          - generic [ref=e758]:
+                            - spinbutton "Quantity" [ref=e759]: "1"
+                            - generic [ref=e760]: ea
+                            - button "Add" [ref=e761] [cursor=pointer]
+                  - group [ref=e763]:
+                    - generic [ref=e764]:
+                      - generic [ref=e765]:
+                        - link [ref=e766] [cursor=pointer]:
+                          - /url: /shop/product/5245226_ea_000nw?name=wilcox-beta-bites-snacking-carrots
+                          - generic [ref=e767]:
+                            - paragraph [ref=e768]: Wilcox Beta Bites Snacking Carrots
+                            - paragraph [ref=e769]: 250g
+                        - generic [ref=e771]:
+                          - generic [ref=e772]:
+                            - img "Badge, Super Saver" [ref=e773]
+                            - generic [ref=e785]:
+                              - generic [ref=e786]:
+                                - generic [ref=e787]: 2 for
+                                - generic [ref=e788]:
+                                  - paragraph [ref=e789]: "5."
+                                  - paragraph [ref=e791]: "00"
+                              - paragraph [ref=e792]: $10.00/1kg
+                              - button [ref=e793] [cursor=pointer]:
+                                - paragraph [ref=e794]: See all
+                          - img "Badge footer, Super Saver" [ref=e795]
+                      - generic [ref=e798]:
+                        - link "Wilcox Beta Bites Snacking Carrots" [ref=e800] [cursor=pointer]:
+                          - /url: /shop/product/5245226_ea_000nw?name=wilcox-beta-bites-snacking-carrots
+                        - generic [ref=e802]:
+                          - generic [ref=e804]:
+                            - generic [ref=e805]:
+                              - paragraph [ref=e806]: "3"
+                              - generic [ref=e807]:
+                                - paragraph [ref=e808]: "99"
+                                - paragraph [ref=e809]: ea
+                            - paragraph [ref=e811]: $15.96/1kg
+                            - button "Add to list" [ref=e813] [cursor=pointer]
+                          - generic [ref=e820]:
+                            - spinbutton "Quantity" [ref=e821]: "1"
+                            - generic [ref=e822]: ea
+                            - button "Add" [ref=e823] [cursor=pointer]
+                  - group [ref=e825]:
+                    - generic [ref=e826]:
+                      - generic [ref=e827]:
+                        - link [ref=e828] [cursor=pointer]:
+                          - /url: /shop/product/5040014_kgm_000nw?name=packham-pears
+                          - generic [ref=e829]:
+                            - paragraph [ref=e830]: Packham Pears
+                            - paragraph [ref=e831]: kg
+                        - img "Badge, Super Saver" [ref=e835]
+                      - generic [ref=e848]:
+                        - link "Packham Pears" [ref=e850] [cursor=pointer]:
+                          - /url: /shop/product/5040014_kgm_000nw?name=packham-pears
+                        - generic [ref=e852]:
+                          - generic [ref=e854]:
+                            - generic [ref=e855]:
+                              - paragraph [ref=e856]: "4"
+                              - generic [ref=e857]:
+                                - paragraph [ref=e858]: "79"
+                                - paragraph [ref=e859]: kg
+                            - paragraph [ref=e861]: $4.79/1kg
+                            - button "Add to list" [ref=e863] [cursor=pointer]
+                          - generic [ref=e870]:
+                            - spinbutton "Quantity" [ref=e871]: "1"
+                            - generic [ref=e874]:
+                              - generic [ref=e875]: Select unit type
+                              - combobox "Select unit type" [ref=e878]:
+                                - option "ea" [selected]
+                                - option "kg"
+                            - button "Add" [ref=e879] [cursor=pointer]
+                  - group [ref=e881]:
+                    - generic [ref=e882]:
+                      - generic [ref=e883]:
+                        - link [ref=e884] [cursor=pointer]:
+                          - /url: /shop/product/5005217_ea_000nw?name=cadbury-crunchie-chocolate-bar
+                          - generic [ref=e885]:
+                            - paragraph [ref=e886]: Cadbury Crunchie Chocolate Bar
+                            - paragraph [ref=e887]: 50g
+                        - generic [ref=e889]:
+                          - generic [ref=e890]:
+                            - img "Badge, Club Plus Deal" [ref=e891]
+                            - generic [ref=e900]:
+                              - generic [ref=e901]:
+                                - paragraph [ref=e902]: "1."
+                                - paragraph [ref=e904]: "69"
+                              - paragraph [ref=e905]: $3.38/100g
+                          - img "Badge footer, Club Plus Deal" [ref=e906]
+                      - generic [ref=e909]:
+                        - link "Cadbury Crunchie Chocolate Bar" [ref=e911] [cursor=pointer]:
+                          - /url: /shop/product/5005217_ea_000nw?name=cadbury-crunchie-chocolate-bar
+                        - generic [ref=e913]:
+                          - generic [ref=e919]:
+                            - generic [ref=e920]:
+                              - paragraph [ref=e921]: "2"
+                              - generic [ref=e922]:
+                                - paragraph [ref=e923]: "29"
+                                - paragraph [ref=e924]: ea
+                            - paragraph [ref=e926]: $4.58/100g
+                            - button "Add to list" [ref=e928] [cursor=pointer]
+                          - generic [ref=e935]:
+                            - spinbutton "Quantity" [ref=e936]: "1"
+                            - generic [ref=e937]: ea
+                            - button "Add" [ref=e938] [cursor=pointer]
+                  - group [ref=e940]:
+                    - generic [ref=e941]:
+                      - generic [ref=e942]:
+                        - link [ref=e943] [cursor=pointer]:
+                          - /url: /shop/product/5040011_kgm_000nw?name=orange-kumara
+                          - generic [ref=e944]:
+                            - paragraph [ref=e945]: Orange Kumara
+                            - paragraph [ref=e946]: kg
+                        - img "Badge, Super Saver" [ref=e950]
+                      - generic [ref=e963]:
+                        - link "Orange Kumara" [ref=e965] [cursor=pointer]:
+                          - /url: /shop/product/5040011_kgm_000nw?name=orange-kumara
+                        - generic [ref=e967]:
+                          - generic [ref=e969]:
+                            - generic [ref=e970]:
+                              - paragraph [ref=e971]: "5"
+                              - generic [ref=e972]:
+                                - paragraph [ref=e973]: "49"
+                                - paragraph [ref=e974]: kg
+                            - paragraph [ref=e976]: $5.49/1kg
+                            - button "Add to list" [ref=e978] [cursor=pointer]
+                          - generic [ref=e985]:
+                            - spinbutton "Quantity" [ref=e986]: "1"
+                            - generic [ref=e989]:
+                              - generic [ref=e990]: Select unit type
+                              - combobox "Select unit type" [ref=e993]:
+                                - option "ea" [selected]
+                                - option "kg"
+                            - button "Add" [ref=e994] [cursor=pointer]
+                  - group [ref=e996]:
+                    - generic [ref=e997]:
+                      - generic [ref=e998]:
+                        - link [ref=e999] [cursor=pointer]:
+                          - /url: /shop/product/5003157_ea_000nw?name=olivani-olive-oil-spread
+                          - generic [ref=e1000]:
+                            - paragraph [ref=e1001]: Olivani Olive Oil Spread
+                            - paragraph [ref=e1002]: 500g
+                        - generic [ref=e1004]:
+                          - generic [ref=e1005]:
+                            - img "Badge, Club Plus Deal" [ref=e1006]
+                            - generic [ref=e1015]:
+                              - generic [ref=e1016]:
+                                - paragraph [ref=e1017]: "4."
+                                - paragraph [ref=e1019]: "79"
+                              - paragraph [ref=e1020]: $0.96/100g
+                              - paragraph [ref=e1021]: Limit 8 assorted
+                          - img "Badge footer, Club Plus Deal" [ref=e1022]
+                      - generic [ref=e1025]:
+                        - link "Olivani Olive Oil Spread" [ref=e1027] [cursor=pointer]:
+                          - /url: /shop/product/5003157_ea_000nw?name=olivani-olive-oil-spread
+                        - generic [ref=e1029]:
+                          - generic [ref=e1031]:
+                            - generic [ref=e1032]:
+                              - paragraph [ref=e1033]: "6"
+                              - generic [ref=e1034]:
+                                - paragraph [ref=e1035]: "09"
+                                - paragraph [ref=e1036]: ea
+                            - paragraph [ref=e1038]: $1.22/100g
+                            - button "Add to list" [ref=e1040] [cursor=pointer]
+                          - generic [ref=e1047]:
+                            - spinbutton "Quantity" [ref=e1048]: "1"
+                            - generic [ref=e1049]: ea
+                            - button "Add" [ref=e1050] [cursor=pointer]
+                  - group [ref=e1052]:
+                    - generic [ref=e1053]:
+                      - generic [ref=e1054]:
+                        - link [ref=e1055] [cursor=pointer]:
+                          - /url: /shop/product/5022379_ea_000nw?name=paseo-pure-luxury-3-ply-long-toilet-tissue
+                          - generic [ref=e1056]:
+                            - paragraph [ref=e1057]: Paseo Pure Luxury 3 Ply Long Toilet Tissue
+                            - paragraph [ref=e1058]: 8 x 270 sheets
+                        - generic [ref=e1060]:
+                          - generic [ref=e1061]:
+                            - img "Badge, Club Plus Deal" [ref=e1062]
+                            - generic [ref=e1071]:
+                              - generic [ref=e1072]:
+                                - paragraph [ref=e1073]: "8."
+                                - paragraph [ref=e1075]: "89"
+                              - paragraph [ref=e1076]: $0.41/100 sheets
+                          - img "Badge footer, Club Plus Deal" [ref=e1077]
+                      - generic [ref=e1080]:
+                        - link "Paseo Pure Luxury 3 Ply Long Toilet Tissue" [ref=e1082] [cursor=pointer]:
+                          - /url: /shop/product/5022379_ea_000nw?name=paseo-pure-luxury-3-ply-long-toilet-tissue
+                        - generic [ref=e1084]:
+                          - generic [ref=e1090]:
+                            - generic [ref=e1091]:
+                              - paragraph [ref=e1092]: "10"
+                              - generic [ref=e1093]:
+                                - paragraph [ref=e1094]: "19"
+                                - paragraph [ref=e1095]: ea
+                            - paragraph [ref=e1097]: $0.47/100 sheets
+                            - button "Add to list" [ref=e1099] [cursor=pointer]
+                          - generic [ref=e1106]:
+                            - spinbutton "Quantity" [ref=e1107]: "1"
+                            - generic [ref=e1108]: ea
+                            - button "Add" [ref=e1109] [cursor=pointer]
+                  - group [ref=e1111]:
+                    - generic [ref=e1112]:
+                      - generic [ref=e1113]:
+                        - link [ref=e1114] [cursor=pointer]:
+                          - /url: /shop/product/5001842_ea_000nw?name=sorbent-silky-white-tissues
+                          - generic [ref=e1115]:
+                            - paragraph [ref=e1116]: Sorbent Silky White Tissues
+                            - paragraph [ref=e1117]: 224pk
+                        - generic [ref=e1119]:
+                          - generic [ref=e1120]:
+                            - img "Badge, Club Plus Deal" [ref=e1121]
+                            - generic [ref=e1130]:
+                              - generic [ref=e1131]:
+                                - paragraph [ref=e1132]: "2."
+                                - paragraph [ref=e1134]: "79"
+                              - paragraph [ref=e1135]: $1.25/100
+                              - paragraph [ref=e1136]: Limit 12 assorted
+                          - img "Badge footer, Club Plus Deal" [ref=e1137]
+                      - generic [ref=e1140]:
+                        - link "Sorbent Silky White Tissues" [ref=e1142] [cursor=pointer]:
+                          - /url: /shop/product/5001842_ea_000nw?name=sorbent-silky-white-tissues
+                        - generic [ref=e1144]:
+                          - generic [ref=e1145]:
+                            - generic [ref=e1150]:
+                              - generic [ref=e1164]:
+                                - generic [ref=e1165]: "1.0"
+                                - generic [ref=e1166]: (1)
+                              - generic [ref=e1167]: 1.0 out of 5 stars. 1 review
+                            - generic [ref=e1168]:
+                              - generic [ref=e1169]:
+                                - paragraph [ref=e1170]: "3"
+                                - generic [ref=e1171]:
+                                  - paragraph [ref=e1172]: "89"
+                                  - paragraph [ref=e1173]: ea
+                              - paragraph [ref=e1175]: $1.74/100
+                              - button "Add to list" [ref=e1177] [cursor=pointer]
+                          - generic [ref=e1184]:
+                            - spinbutton "Quantity" [ref=e1185]: "1"
+                            - generic [ref=e1186]: ea
+                            - button "Add" [ref=e1187] [cursor=pointer]
+                  - group [ref=e1189]:
+                    - generic [ref=e1190]:
+                      - generic [ref=e1191]:
+                        - link [ref=e1192] [cursor=pointer]:
+                          - /url: /shop/product/5009651_ea_000nw?name=whittaker%27s-creamy-milk-33%25-cocoa-milk-chocolate-block
+                          - generic [ref=e1193]:
+                            - paragraph [ref=e1194]: Whittaker's Creamy Milk 33% Cocoa Milk Chocolate Block
+                            - paragraph [ref=e1195]: 250g
+                        - generic [ref=e1197]:
+                          - generic [ref=e1198]:
+                            - img "Badge, Club Plus Deal" [ref=e1199]
+                            - generic [ref=e1208]:
+                              - generic [ref=e1209]:
+                                - paragraph [ref=e1210]: "7."
+                                - paragraph [ref=e1212]: "49"
+                              - paragraph [ref=e1213]: $3.00/100g
+                          - img "Badge footer, Club Plus Deal" [ref=e1214]
+                      - generic [ref=e1217]:
+                        - link "Whittaker's Creamy Milk 33% Cocoa Milk Chocolate Block" [ref=e1219] [cursor=pointer]:
+                          - /url: /shop/product/5009651_ea_000nw?name=whittaker%27s-creamy-milk-33%25-cocoa-milk-chocolate-block
+                        - generic [ref=e1221]:
+                          - generic [ref=e1227]:
+                            - generic [ref=e1228]:
+                              - paragraph [ref=e1229]: "8"
+                              - generic [ref=e1230]:
+                                - paragraph [ref=e1231]: "49"
+                                - paragraph [ref=e1232]: ea
+                            - paragraph [ref=e1234]: $3.40/100g
+                            - button "Add to list" [ref=e1236] [cursor=pointer]
+                          - generic [ref=e1243]:
+                            - spinbutton "Quantity" [ref=e1244]: "1"
+                            - generic [ref=e1245]: ea
+                            - button "Add" [ref=e1246] [cursor=pointer]
+                  - group [ref=e1248]:
+                    - generic [ref=e1249]:
+                      - generic [ref=e1250]:
+                        - link [ref=e1251] [cursor=pointer]:
+                          - /url: /shop/product/5046509_ea_000nw?name=celery-half
+                          - generic [ref=e1252]:
+                            - paragraph [ref=e1253]: Celery Half
+                            - paragraph [ref=e1254]: ea
+                        - img "Badge, Super Saver" [ref=e1258]
+                      - generic [ref=e1271]:
+                        - link "Celery Half" [ref=e1273] [cursor=pointer]:
+                          - /url: /shop/product/5046509_ea_000nw?name=celery-half
+                        - generic [ref=e1275]:
+                          - generic [ref=e1277]:
+                            - generic [ref=e1278]:
+                              - paragraph [ref=e1279]: "1"
+                              - generic [ref=e1280]:
+                                - paragraph [ref=e1281]: "79"
+                                - paragraph [ref=e1282]: ea
+                            - generic [ref=e1283]:
+                              - paragraph
+                            - button "Add to list" [ref=e1285] [cursor=pointer]
+                          - generic [ref=e1292]:
+                            - spinbutton "Quantity" [ref=e1293]: "1"
+                            - generic [ref=e1294]: ea
+                            - button "Add" [ref=e1295] [cursor=pointer]
+                  - group [ref=e1297]:
+                    - generic [ref=e1298]:
+                      - generic [ref=e1299]:
+                        - link [ref=e1300] [cursor=pointer]:
+                          - /url: /shop/product/5010663_ea_000nw?name=copper-kettle-sea-salt-potato-chips
+                          - generic [ref=e1301]:
+                            - paragraph [ref=e1302]: Copper Kettle Sea Salt Potato Chips
+                            - paragraph [ref=e1303]: 150g
+                        - generic [ref=e1305]:
+                          - generic [ref=e1306]:
+                            - img "Badge, Club Plus Deal" [ref=e1307]
+                            - generic [ref=e1316]:
+                              - generic [ref=e1317]:
+                                - generic [ref=e1318]: 2 for
+                                - generic [ref=e1319]:
+                                  - paragraph [ref=e1320]: "6."
+                                  - paragraph [ref=e1322]: "00"
+                              - paragraph [ref=e1323]: $2.00/100g
+                              - button [ref=e1324] [cursor=pointer]:
+                                - paragraph [ref=e1325]: See all
+                          - img "Badge footer, Club Plus Deal" [ref=e1326]
+                      - img "Buy 2 for SMEG Bonus Sticker Week 2"
+                      - generic [ref=e1329]:
+                        - link "Copper Kettle Sea Salt Potato Chips" [ref=e1331] [cursor=pointer]:
+                          - /url: /shop/product/5010663_ea_000nw?name=copper-kettle-sea-salt-potato-chips
+                        - generic [ref=e1333]:
+                          - generic [ref=e1339]:
+                            - generic [ref=e1340]:
+                              - paragraph [ref=e1341]: "5"
+                              - generic [ref=e1342]:
+                                - paragraph [ref=e1343]: "19"
+                                - paragraph [ref=e1344]: ea
+                            - paragraph [ref=e1346]: $3.46/100g
+                            - button "Add to list" [ref=e1348] [cursor=pointer]
+                          - generic [ref=e1355]:
+                            - spinbutton "Quantity" [ref=e1356]: "1"
+                            - generic [ref=e1357]: ea
+                            - button "Add" [ref=e1358] [cursor=pointer]
+                  - group [ref=e1360]:
+                    - generic [ref=e1361]:
+                      - generic [ref=e1362]:
+                        - link [ref=e1363] [cursor=pointer]:
+                          - /url: /shop/product/5001903_ea_000nw?name=coca-cola-soft-drink
+                          - generic [ref=e1364]:
+                            - paragraph [ref=e1365]: Coca-Cola Soft Drink
+                            - paragraph [ref=e1366]: 2.25l
+                        - generic [ref=e1368]:
+                          - generic [ref=e1369]:
+                            - img "Badge, Club Plus Deal" [ref=e1370]
+                            - generic [ref=e1379]:
+                              - generic [ref=e1380]:
+                                - paragraph [ref=e1381]: "3."
+                                - paragraph [ref=e1383]: "79"
+                              - paragraph [ref=e1384]: $1.68/1L
+                              - paragraph [ref=e1385]: Limit 12 assorted
+                          - img "Badge footer, Club Plus Deal" [ref=e1386]
+                      - generic [ref=e1389]:
+                        - link "Coca-Cola Soft Drink" [ref=e1391] [cursor=pointer]:
+                          - /url: /shop/product/5001903_ea_000nw?name=coca-cola-soft-drink
+                        - generic [ref=e1393]:
+                          - generic [ref=e1399]:
+                            - generic [ref=e1400]:
+                              - paragraph [ref=e1401]: "5"
+                              - generic [ref=e1402]:
+                                - paragraph [ref=e1403]: "49"
+                                - paragraph [ref=e1404]: ea
+                            - paragraph [ref=e1406]: $2.44/1L
+                            - button "Add to list" [ref=e1408] [cursor=pointer]
+                          - generic [ref=e1415]:
+                            - spinbutton "Quantity" [ref=e1416]: "1"
+                            - generic [ref=e1417]: ea
+                            - button "Add" [ref=e1418] [cursor=pointer]
+                - generic [ref=e1420]:
+                  - generic [ref=e1421]:
+                    - 'button "Go to slide #0" [ref=e1422] [cursor=pointer]'
+                    - 'button "Go to slide #0.31246684350132625" [ref=e1423] [cursor=pointer]'
+                    - 'button "Go to slide #0.6249336870026525" [ref=e1424] [cursor=pointer]'
+                    - 'button "Go to slide #0.9374005305039788" [ref=e1425] [cursor=pointer]'
+                    - 'button "Go to slide #1" [ref=e1426] [cursor=pointer]'
+                  - generic [ref=e1427]:
+                    - button "Previous slide" [disabled] [ref=e1428] [cursor=pointer]
+                    - button "Next slide" [ref=e1432] [cursor=pointer]
+        - generic [ref=e1439]:
+          - generic [ref=e1441]:
+            - heading "Log in with Club+ to see your previous purchases" [level=4] [ref=e1447]
+            - paragraph [ref=e1448]: When you scan your Club+ card in store regularly or shop online we’ll show your frequently shopped products here.
+          - link "Log in or Join" [ref=e1451] [cursor=pointer]:
+            - /url: https://login.clubplus.co.nz/?banner=MNW&channel=WEB&callback_url=https%3A%2F%2Fwww.newworld.co.nz%2Fauth%2Fcallback
+        - region [ref=e1454]:
+          - generic [ref=e1456]:
+            - group [ref=e1457]:
+              - link "Collect SMEG Knives" [ref=e1458] [cursor=pointer]:
+                - /url: https://www.newworld.co.nz/smeg-knives
+                - img "SMEG collect - promo card lozenge.jpg" [ref=e1460]
+                - generic [ref=e1461]:
+                  - heading "Collect SMEG Knives" [level=4] [ref=e1462]
+                  - paragraph [ref=e1463]: Start collecting like a pro to prep like a pro! While stocks last. Every $20 spent = 1 sticker.
+                  - generic [ref=e1464]: Learn more
+            - group [ref=e1465]:
+              - link "Be in to win a SMEG fridge" [ref=e1466] [cursor=pointer]:
+                - /url: /smeg-knives/scan-to-win
+                - img "SMEG scan to win promo card.png" [ref=e1468]
+                - generic [ref=e1469]:
+                  - heading "Be in to win a SMEG fridge" [level=4] [ref=e1470]
+                  - paragraph [ref=e1471]: Shop at New World and scan your Club+ card for your chance to win a SMEG fridge. With 12 fridges to be won across 12 weeks, every shop could be a winning one. Winners announced weekly!
+                  - generic [ref=e1472]: Learn more
+            - group [ref=e1473]:
+              - link "From fresh staples to seasonal stars" [ref=e1474] [cursor=pointer]:
+                - /url: https://www.newworld.co.nz/shop/category/fruit-and-vegetables?pg=1
+                - img "FS25350 - NWNZ_Fresh Oranges_Web Assets - Shopping Tile 768x576px.jpg" [ref=e1476]
+                - generic [ref=e1477]:
+                  - heading "From fresh staples to seasonal stars" [level=4] [ref=e1478]
+                  - paragraph [ref=e1479]: Explore our wider range of fresh fruit and vegetables.
+                  - generic [ref=e1480]: Shop fruit & vege
+        - generic [ref=e1486]:
+          - generic [ref=e1488]:
+            - heading "Why Shop Online With Us?" [level=2] [ref=e1489]
+            - generic [ref=e1495]:
+              - heading "You shop, anytime" [level=3] [ref=e1496]
+              - paragraph [ref=e1497]: With New World online, your local store's range and specials are all at your fingertips.
+            - generic [ref=e1502]:
+              - heading "We pick the freshest & finest" [level=3] [ref=e1503]
+              - paragraph [ref=e1504]: Our personal shoppers pick your items just as you would. You can even leave them instructions.
+            - generic [ref=e1509]:
+              - heading "We deliver, or you pick up" [level=3] [ref=e1510]
+              - paragraph [ref=e1511]: Straight to your door, or on your way home. Get your groceries the way that suits you.
+          - img "love-groceries-delivered.jpg" [ref=e1512]
+      - region "Notifications Alt+T"
+    - contentinfo [ref=e1513]:
+      - generic [ref=e1514]:
+        - generic [ref=e1515]:
+          - generic [ref=e1516]:
+            - generic [ref=e1518]:
+              - paragraph [ref=e1519]: Explore New World
+              - generic [ref=e1520]:
+                - paragraph [ref=e1521]:
+                  - link "New World Clubcard" [ref=e1522] [cursor=pointer]:
+                    - /url: /clubcard
+                - paragraph [ref=e1523]:
+                  - link "Christmas Club" [ref=e1524] [cursor=pointer]:
+                    - /url: /who-we-are/christmas-club
+                - paragraph [ref=e1525]:
+                  - link "Gift Cards" [ref=e1526] [cursor=pointer]:
+                    - /url: /discover/in-store/gift-cards
+                - paragraph [ref=e1527]:
+                  - link "Fuel discounts" [ref=e1528] [cursor=pointer]:
+                    - /url: /fuel
+            - generic [ref=e1530]:
+              - paragraph [ref=e1531]: Legal
+              - generic [ref=e1532]:
+                - paragraph [ref=e1533]:
+                  - link "Privacy Policy" [ref=e1534] [cursor=pointer]:
+                    - /url: /privacy-policy
+                - paragraph [ref=e1535]:
+                  - link "Website T&Cs" [ref=e1536] [cursor=pointer]:
+                    - /url: /terms-and-conditions
+                - paragraph [ref=e1537]:
+                  - link "Online shopping T&Cs" [ref=e1538] [cursor=pointer]:
+                    - /url: /shop/terms-and-conditions
+                - paragraph [ref=e1539]:
+                  - link "Club+ T&Cs" [ref=e1540] [cursor=pointer]:
+                    - /url: https://www.clubplus.co.nz/terms
+                - paragraph [ref=e1541]:
+                  - link "Liquor Licence" [ref=e1542] [cursor=pointer]:
+                    - /url: /shop/liquor-licence
+                - paragraph [ref=e1543]:
+                  - link "Clubcard T&Cs" [ref=e1544] [cursor=pointer]:
+                    - /url: /clubcard/terms
+                - paragraph [ref=e1545]:
+                  - link "North Island refund & returns policy" [ref=e1546] [cursor=pointer]:
+                    - /url: /north-island-stores-refund-and-returns-policy
+                - paragraph [ref=e1547]:
+                  - link "South Island refund & returns policy" [ref=e1548] [cursor=pointer]:
+                    - /url: /south-island-stores-refund-and-returns-policy
+            - generic [ref=e1550]:
+              - paragraph [ref=e1551]: Customer service
+              - generic [ref=e1552]:
+                - paragraph [ref=e1553]:
+                  - link "Contact us" [ref=e1554] [cursor=pointer]:
+                    - /url: /who-we-are/contact-us
+                - paragraph [ref=e1555]:
+                  - link "Store finder" [ref=e1556] [cursor=pointer]:
+                    - /url: /store-finder
+                - paragraph [ref=e1557]:
+                  - link "FAQs" [ref=e1558] [cursor=pointer]:
+                    - /url: /shop/frequently-asked-questions
+                - paragraph [ref=e1559]:
+                  - link "Scam alert" [ref=e1560] [cursor=pointer]:
+                    - /url: /scam-alert
+                - paragraph [ref=e1561]:
+                  - link "Surveys" [ref=e1562] [cursor=pointer]:
+                    - /url: /who-we-are/surveys
+            - generic [ref=e1564]:
+              - paragraph [ref=e1565]: More
+              - generic [ref=e1566]:
+                - paragraph [ref=e1567]:
+                  - link "Club+" [ref=e1568] [cursor=pointer]:
+                    - /url: https://www.clubplus.co.nz
+                - paragraph [ref=e1569]:
+                  - link "Pams" [ref=e1570] [cursor=pointer]:
+                    - /url: /who-we-are/own-brands
+                - paragraph [ref=e1571]:
+                  - link "About Foodstuffs" [ref=e1572] [cursor=pointer]:
+                    - /url: https://www.foodstuffs.co.nz/who-we-are
+                - paragraph [ref=e1573]:
+                  - link "Become a supplier" [ref=e1574] [cursor=pointer]:
+                    - /url: https://www.foodstuffs.co.nz/partnering-with-us/Becoming-a-supplier
+                - paragraph [ref=e1575]:
+                  - link "Jobs" [ref=e1576] [cursor=pointer]:
+                    - /url: /who-we-are/jobs
+                - paragraph [ref=e1577]:
+                  - link "News" [ref=e1578] [cursor=pointer]:
+                    - /url: /who-we-are/news
+          - generic [ref=e1579]:
+            - paragraph [ref=e1580]: Follow us
+            - generic [ref=e1581]:
+              - generic [ref=e1582]:
+                - link "facebook" [ref=e1583] [cursor=pointer]:
+                  - /url: https://www.facebook.com/newworld/
+                - link "Instagram" [ref=e1586] [cursor=pointer]:
+                  - /url: https://www.instagram.com/newworldnz/
+              - generic [ref=e1589]:
+                - link "Here for NZ" [ref=e1590] [cursor=pointer]:
+                  - /url: /who-we-are/here-for-nz
+                - link "Proudly Locally Owned" [ref=e1603] [cursor=pointer]:
+                  - /url: /who-we-are
+          - generic [ref=e1627]:
+            - paragraph [ref=e1628]: Download the New World app
+            - generic [ref=e1629]:
+              - link [ref=e1630] [cursor=pointer]:
+                - /url: https://apps.apple.com/nz/app/new-world-nz/id1313574159
+                - img "App Store" [ref=e1631]
+              - link [ref=e1660] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=nz.co.newworld.clubcard&amp;hl=en
+                - img "Google Play" [ref=e1661]
+        - generic [ref=e1681]:
+          - separator [ref=e1682]
+          - generic [ref=e1683]:
+            - button "Women’s Refuge" [ref=e1685] [cursor=pointer]
+            - paragraph [ref=e1697]: © 2026 New World. All rights reserved.
+    - dialog "Modal dialog":
+      - generic:
+        - button "Close modal"
+  - button [ref=e1698] [cursor=pointer]
+  - alert [ref=e1703]

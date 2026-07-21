@@ -1,0 +1,938 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - banner [ref=e7]:
+      - link [ref=e9] [cursor=pointer]:
+        - /url: /
+        - 'img "Online Supermarket: Online Grocery Shopping & Free Recipes at woolworths.co.nz" [ref=e10]'
+      - navigation [ref=e14]:
+        - list [ref=e15]:
+          - listitem [ref=e16]:
+            - link "Contact" [ref=e17] [cursor=pointer]:
+              - /url: /about-us/contact-us
+          - listitem [ref=e18]:
+            - link "Stores" [ref=e19] [cursor=pointer]:
+              - /url: /store-finder
+          - listitem [ref=e20]:
+            - link "Everyday Rewards" [ref=e21] [cursor=pointer]:
+              - /url: https://account.woolworths.co.nz/everyday-rewards
+          - listitem [ref=e22]:
+            - button "Sign in or Register" [ref=e24] [cursor=pointer]
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - navigation [ref=e28]:
+          - list [ref=e29]:
+            - listitem [ref=e30]:
+              - button "Browse" [ref=e32] [cursor=pointer]
+            - listitem [ref=e34]:
+              - button "Specials & offers" [ref=e36] [cursor=pointer]
+            - listitem [ref=e38]:
+              - button "Favourites & lists" [ref=e40] [cursor=pointer]
+            - listitem [ref=e42]:
+              - link "Recipes" [ref=e43] [cursor=pointer]:
+                - /url: /recipes
+            - listitem [ref=e44]:
+              - link "Disney OOSHIES™" [ref=e45] [cursor=pointer]:
+                - /url: /shop/content/disney-ooshies
+        - generic [ref=e47]:
+          - generic [ref=e48]: Search for a product
+          - generic "Search" [ref=e50]:
+            - generic [ref=e51]:
+              - searchbox "Search for a product" [ref=e52]
+              - button "Submit search" [ref=e53] [cursor=pointer]
+          - generic:
+            - generic [ref=e57]: Select a search type
+            - combobox "Select a search type" [ref=e58] [cursor=pointer]:
+              - option "Grocery" [selected]
+              - option "Recipes"
+        - link [ref=e60] [cursor=pointer]:
+          - /url: //bookatimeslot
+          - paragraph [ref=e65]: Pick up or delivery?
+        - link "Review order or checkout $0.00" [ref=e67] [cursor=pointer]:
+          - /url: /reviewtrolley
+          - generic [ref=e68]: $0.00
+          - generic "0 items in basket" [ref=e73]: "0"
+      - generic [ref=e80]:
+        - text: Prices and stock availability may vary by location. You're seeing information for the
+        - strong [ref=e81]: Glenfield area
+        - text: .
+        - link "Change location" [ref=e82] [cursor=pointer]:
+          - /url: javascript:void(0)
+  - generic [ref=e84]:
+    - generic [ref=e85]:
+      - separator "Start of carousel"
+      - region "Home page hero" [ref=e86]:
+        - generic [ref=e87]:
+          - generic [ref=e88]: 1 / 5
+          - generic [ref=e90]:
+            - button "Stop automatic slide show" [ref=e91] [cursor=pointer]
+            - button "Previous slide" [ref=e95] [cursor=pointer]
+            - button "Next slide" [ref=e99] [cursor=pointer]
+        - generic [ref=e104]:
+          - group [ref=e106]:
+            - generic [ref=e110]:
+              - heading [level=1] [ref=e112]: Saving money never felt so good
+              - link [ref=e114] [cursor=pointer]:
+                - /url: /shop/productgroup/198138
+                - text: Shop now
+            - link [ref=e116] [cursor=pointer]:
+              - /url: /shop/productgroup/198138
+          - group "1 of 5" [ref=e119]:
+            - generic [ref=e120]:
+              - generic [ref=e121]:
+                - img "Back to School" [ref=e122]
+                - img "$20 off*" [ref=e123]
+              - generic [ref=e124]:
+                - heading "Get $20 off your first online shop.* Use code SAVE20" [level=1] [ref=e126]
+                - generic [ref=e127]:
+                  - link "Terms and Conditions apply" [ref=e128] [cursor=pointer]:
+                    - /url: /info/terms-and-conditions/first-time-shopper-offer-20-off-min-spend-100
+                  - link "Shop now" [ref=e130] [cursor=pointer]:
+                    - /url: /shop/browse/back-to-school?promo_position=HP%20carousel%20-%20Pos%203&promo_creative=Carousel%20image&promo_name=&itemID=F2704-HPC-BacktoSchool
+            - link [ref=e132] [cursor=pointer]:
+              - /url: /shop/browse/back-to-school?promo_position=HP%20carousel%20-%20Pos%203&promo_creative=Carousel%20image&promo_name=&itemID=F2704-HPC-BacktoSchool
+              - img "Back to school" [ref=e133]
+          - group [ref=e135]:
+            - generic [ref=e139]:
+              - heading [level=1] [ref=e141]: FREE with every $30 you spend*
+              - generic [ref=e142]:
+                - link [ref=e143] [cursor=pointer]:
+                  - /url: /shop/content/disney-ooshies/terms
+                  - generic [ref=e144]: Terms and Conditions apply
+                - link [ref=e145] [cursor=pointer]:
+                  - /url: /shop/content/disney-ooshies?promo_position=HP%20carousel%20-%20Pos%201&promo_creative=Carousel%20image&promo_name=&itemID=F2704-HPC-DisneyOoshies
+                  - text: Shop now
+            - link [ref=e147] [cursor=pointer]:
+              - /url: /shop/content/disney-ooshies?promo_position=HP%20carousel%20-%20Pos%201&promo_creative=Carousel%20image&promo_name=&itemID=F2704-HPC-DisneyOoshies
+          - group [ref=e150]:
+            - generic [ref=e154]:
+              - heading [level=1] [ref=e156]: They can’t say no to a dino
+              - link [ref=e158] [cursor=pointer]:
+                - /url: /shop/productgroup/197898
+                - text: Shop now
+            - link [ref=e160] [cursor=pointer]:
+              - /url: /shop/productgroup/197898
+          - group [ref=e163]:
+            - generic [ref=e167]:
+              - heading [level=1] [ref=e169]: Want more points on every shop? Boost and spend $50 or more*
+              - generic [ref=e170]:
+                - link [ref=e171] [cursor=pointer]:
+                  - /url: /info/terms-and-conditions/everyday-rewards-competitions
+                  - generic [ref=e172]: "*Terms and Conditions apply"
+                - link [ref=e173] [cursor=pointer]:
+                  - /url: /shop/everyday-rewards-boosts?promo_position=HP%20carousel%20-%20Pos%205&promo_creative=Carousel%20image&promo_name=&itemID=F2704-HPC-EDRAMO
+                  - text: Boost now
+            - link [ref=e175] [cursor=pointer]:
+              - /url: /shop/everyday-rewards-boosts?promo_position=HP%20carousel%20-%20Pos%205&promo_creative=Carousel%20image&promo_name=&itemID=F2704-HPC-EDRAMO
+          - group [ref=e178]:
+            - generic [ref=e182]:
+              - heading [level=1] [ref=e184]: Saving money never felt so good
+              - link [ref=e186] [cursor=pointer]:
+                - /url: /shop/productgroup/198138
+                - text: Shop now
+            - link [ref=e188] [cursor=pointer]:
+              - /url: /shop/productgroup/198138
+          - group [ref=e191]:
+            - generic [ref=e196]:
+              - heading [level=1] [ref=e198]: Get $20 off your first online shop.* Use code SAVE20
+              - generic [ref=e199]:
+                - link [ref=e200] [cursor=pointer]:
+                  - /url: /info/terms-and-conditions/first-time-shopper-offer-20-off-min-spend-100
+                  - generic [ref=e201]: Terms and Conditions apply
+                - link [ref=e202] [cursor=pointer]:
+                  - /url: /shop/browse/back-to-school?promo_position=HP%20carousel%20-%20Pos%203&promo_creative=Carousel%20image&promo_name=&itemID=F2704-HPC-BacktoSchool
+                  - text: Shop now
+            - link [ref=e204] [cursor=pointer]:
+              - /url: /shop/browse/back-to-school?promo_position=HP%20carousel%20-%20Pos%203&promo_creative=Carousel%20image&promo_name=&itemID=F2704-HPC-BacktoSchool
+      - separator "End of carousel"
+    - generic [ref=e207]:
+      - generic [ref=e210]:
+        - generic [ref=e211]: Kia ora
+        - navigation [ref=e212]:
+          - link "New to online?" [ref=e214] [cursor=pointer]:
+            - /url: https://www.woolworths.co.nz/info/online-shopping
+          - link "Book a slot" [ref=e224] [cursor=pointer]:
+            - /url: /bookatimeslot
+          - link "Weekly Mailer" [ref=e234] [cursor=pointer]:
+            - /url: https://www.woolworths.co.nz/shop/content/weeklymailer
+          - link "Sign In / Register" [ref=e244] [cursor=pointer]:
+            - /url: /shop/securelogin
+          - link "Change Order" [ref=e254] [cursor=pointer]:
+            - /url: https://www.woolworths.co.nz/account/orders/(account-modal:change-order)
+          - link "Boosts" [ref=e261] [cursor=pointer]:
+            - /url: https://account.woolworths.co.nz/everyday-rewards
+      - heading "Top Picks" [level=2] [ref=e273]
+      - main [ref=e278]:
+        - generic [ref=e283]:
+          - generic [ref=e284]:
+            - article [ref=e286]:
+              - img "Fresh Deals." [ref=e288]
+              - generic [ref=e290]:
+                - link "Fresh Fruit Oranges Navelnull. $3.50 per kg. Fresh Deals. Unit price $3.50 / 1kg $1.18 / ea (approx)." [ref=e291] [cursor=pointer]:
+                  - /url: /shop/productdetails?stockcode=149885&name=fresh-fruit-oranges-navel
+                  - figure [ref=e292]:
+                    - img "Fresh Fruit Oranges Navelnull." [ref=e294]
+                - link [ref=e295] [cursor=pointer]:
+                  - /url: /shop/productdetails?stockcode=149885&name=fresh-fruit-oranges-navel
+                  - heading "Fresh Fruit Oranges Navelnull." [level=3] [ref=e296]: fresh fruit oranges navel
+                - generic [ref=e297]:
+                  - generic "Unit price $3.50 / 1kg" [ref=e301]: $3.50 / 1kg
+                  - paragraph [ref=e303]: $1.18 / ea (approx)
+                - heading "$3.50 per kg." [level=3] [ref=e306]:
+                  - text: $
+                  - emphasis [ref=e307]: "3"
+                  - generic [ref=e308]: 50 kg
+              - generic [ref=e310]:
+                - radiogroup "Choose whether to order by quantity or weight" [ref=e315]:
+                  - listitem [ref=e316]:
+                    - radio "Weight"
+                    - generic [ref=e317] [cursor=pointer]: Weight
+                  - listitem [ref=e318]:
+                    - radio "Quantity" [checked]
+                    - generic [ref=e319] [cursor=pointer]: Quantity
+                - paragraph [ref=e324]: 0 in trolley
+                - button "Add fresh fruit oranges navel to trolley" [ref=e326] [cursor=pointer]: Add to trolley
+              - button "Add shopper notes related to fresh fruit oranges navel" [ref=e328] [cursor=pointer]
+            - article [ref=e333]:
+              - generic [ref=e335]:
+                - generic "Special." [ref=e336]: Special
+                - generic "25% Off." [ref=e340]: 25% Off
+              - generic [ref=e341]:
+                - link "Mother Earth Oaty Slices Oat Bars Afghan6pk240g. $3.59 each. Was 4.89$ Save 1.3$ Special. 25% Off. Unit price $1.50 / 100g" [ref=e342] [cursor=pointer]:
+                  - /url: /shop/productdetails?stockcode=700599&name=mother-earth-oaty-slices-oat-bars-afghan
+                  - figure [ref=e343]:
+                    - img "Mother Earth Oaty Slices Oat Bars Afghan6pk240g." [ref=e345]
+                - link [ref=e346] [cursor=pointer]:
+                  - /url: /shop/productdetails?stockcode=700599&name=mother-earth-oaty-slices-oat-bars-afghan
+                  - heading "Mother Earth Oaty Slices Oat Bars Afghan6pk240g." [level=3] [ref=e347]: mother earth oaty slices oat bars afghan 6pk 240g
+                - generic [ref=e348]:
+                  - generic "Unit price $1.50 / 100g" [ref=e352]: $1.50 / 100g
+                  - generic:
+                    - paragraph
+                - generic [ref=e353]:
+                  - heading "$3.59 each." [level=3] [ref=e355]:
+                    - text: $
+                    - emphasis [ref=e356]: "3"
+                    - generic [ref=e357]: "59"
+                  - generic [ref=e359]:
+                    - generic "Was 4.89$" [ref=e360]: Was $4.89
+                    - generic "Save 1.3$" [ref=e361]: Save $1.30
+              - generic [ref=e362]:
+                - paragraph [ref=e367]: 0 in trolley
+                - button "Add mother earth oaty slices oat bars afghan to trolley" [ref=e369] [cursor=pointer]: Add to trolley
+              - button "Add shopper notes related to mother earth oaty slices oat bars afghan" [ref=e371] [cursor=pointer]
+            - article [ref=e376]:
+              - generic [ref=e378]:
+                - generic "Special." [ref=e379]: Special
+                - generic "33% Off." [ref=e383]: 33% Off
+              - generic [ref=e384]:
+                - link "Fresh N Fruity Yoghurt 6pk Strawberry125g Pottles750g. $3.99 each. Was 6.5$ Save 2.51$ Special. 33% Off. Unit price $0.53 / 100g" [ref=e385] [cursor=pointer]:
+                  - /url: /shop/productdetails?stockcode=113939&name=fresh-n-fruity-yoghurt-6pk-strawberry
+                  - figure [ref=e386]:
+                    - img "Fresh N Fruity Yoghurt 6pk Strawberry125g Pottles750g." [ref=e388]
+                - link [ref=e389] [cursor=pointer]:
+                  - /url: /shop/productdetails?stockcode=113939&name=fresh-n-fruity-yoghurt-6pk-strawberry
+                  - heading "Fresh N Fruity Yoghurt 6pk Strawberry125g Pottles750g." [level=3] [ref=e390]: fresh n fruity yoghurt 6pk strawberry 125g pottles 750g
+                - generic [ref=e391]:
+                  - generic "Unit price $0.53 / 100g" [ref=e395]: $0.53 / 100g
+                  - generic:
+                    - paragraph
+                - generic [ref=e396]:
+                  - heading "$3.99 each." [level=3] [ref=e398]:
+                    - text: $
+                    - emphasis [ref=e399]: "3"
+                    - generic [ref=e400]: "99"
+                  - generic [ref=e402]:
+                    - generic "Was 6.5$" [ref=e403]: Was $6.50
+                    - generic "Save 2.51$" [ref=e404]: Save $2.51
+              - generic [ref=e405]:
+                - paragraph [ref=e410]: 0 in trolley
+                - button "Add fresh n fruity yoghurt 6pk strawberry to trolley" [ref=e412] [cursor=pointer]: Add to trolley
+              - button "Add shopper notes related to fresh n fruity yoghurt 6pk strawberry" [ref=e414] [cursor=pointer]
+            - article [ref=e419]:
+              - generic [ref=e421]:
+                - generic "Special." [ref=e422]: Special
+                - generic "40% Off." [ref=e426]: 40% Off
+              - generic [ref=e427]:
+                - link "Tegel Take Outs Chicken Portions Free Range Louisiana Style1kg. $9.80 each. Was 16.49$ Save 6.69$ Special. 40% Off. Unit price $9.80 / 1kg" [ref=e428] [cursor=pointer]:
+                  - /url: /shop/productdetails?stockcode=71375&name=tegel-take-outs-chicken-portions-free-range-louisiana-style
+                  - figure [ref=e429]:
+                    - img "Tegel Take Outs Chicken Portions Free Range Louisiana Style1kg." [ref=e431]
+                - link [ref=e432] [cursor=pointer]:
+                  - /url: /shop/productdetails?stockcode=71375&name=tegel-take-outs-chicken-portions-free-range-louisiana-style
+                  - heading "Tegel Take Outs Chicken Portions Free Range Louisiana Style1kg." [level=3] [ref=e433]: tegel take outs chicken portions free range louisiana style 1kg
+                - generic [ref=e434]:
+                  - generic "Unit price $9.80 / 1kg" [ref=e438]: $9.80 / 1kg
+                  - generic:
+                    - paragraph
+                - generic [ref=e439]:
+                  - heading "$9.80 each." [level=3] [ref=e441]:
+                    - text: $
+                    - emphasis [ref=e442]: "9"
+                    - generic [ref=e443]: "80"
+                  - generic [ref=e445]:
+                    - generic "Was 16.49$" [ref=e446]: Was $16.49
+                    - generic "Save 6.69$" [ref=e447]: Save $6.69
+              - generic [ref=e448]:
+                - paragraph [ref=e453]: 0 in trolley
+                - button "Add tegel take outs chicken portions free range louisiana style to trolley" [ref=e455] [cursor=pointer]: Add to trolley
+              - button "Add shopper notes related to tegel take outs chicken portions free range louisiana style" [ref=e457] [cursor=pointer]
+            - article [ref=e462]:
+              - link [ref=e464] [cursor=pointer]:
+                - /url: /shop/content/disney-ooshies
+                - img "Buy 1 participating product to get a Bonus OOSHIE^." [ref=e465]
+              - generic [ref=e467]:
+                - link "Nescafé Coffee Sachets Caramel Latte26 Pack442g. $11.49 each. Was 17.59$ Save 6.1$ Buy 1 participating product to get a Bonus OOSHIE^. Unit price $0.44 / 1ea" [ref=e468] [cursor=pointer]:
+                  - /url: /shop/productdetails?stockcode=549613&name=nescaf-coffee-sachets-caramel-latte
+                  - figure [ref=e469]:
+                    - img "Nescafé Coffee Sachets Caramel Latte26 Pack442g." [ref=e471]
+                - link [ref=e472] [cursor=pointer]:
+                  - /url: /shop/productdetails?stockcode=549613&name=nescaf-coffee-sachets-caramel-latte
+                  - heading "Nescafé Coffee Sachets Caramel Latte26 Pack442g." [level=3] [ref=e473]: nescafé coffee sachets caramel latte 26 pack 442g
+                - generic [ref=e474]:
+                  - generic "Unit price $0.44 / 1ea" [ref=e478]: $0.44 / 1ea
+                  - generic:
+                    - paragraph
+                - generic [ref=e479]:
+                  - heading "$11.49 each." [level=3] [ref=e481]:
+                    - text: $
+                    - emphasis [ref=e482]: "11"
+                    - generic [ref=e483]: "49"
+                  - generic [ref=e485]:
+                    - generic "Was 17.59$" [ref=e486]: Was $17.59
+                    - generic "Save 6.1$" [ref=e487]: Save $6.10
+              - generic [ref=e488]:
+                - paragraph [ref=e493]: 0 in trolley
+                - button "Add nescafé coffee sachets caramel latte to trolley" [ref=e495] [cursor=pointer]: Add to trolley
+              - button "Add shopper notes related to nescafé coffee sachets caramel latte" [ref=e497] [cursor=pointer]
+            - article [ref=e502]:
+              - generic [ref=e504]:
+                - generic "Special." [ref=e505]: Special
+                - generic "25% Off." [ref=e509]: 25% Off
+              - generic [ref=e510]:
+                - link "Woolworths Chicken Whole 1.9kg. $12.90 each. Was 17.5$ Save 4.6$ Special. 25% Off. Unit price $6.79 / 1kg" [ref=e511] [cursor=pointer]:
+                  - /url: /shop/productdetails?stockcode=703409&name=woolworths-chicken-whole
+                  - figure [ref=e512]:
+                    - img "Woolworths Chicken Whole 1.9kg." [ref=e514]
+                - link [ref=e515] [cursor=pointer]:
+                  - /url: /shop/productdetails?stockcode=703409&name=woolworths-chicken-whole
+                  - heading "Woolworths Chicken Whole 1.9kg." [level=3] [ref=e516]: woolworths chicken whole 1.9kg
+                - generic [ref=e517]:
+                  - generic "Unit price $6.79 / 1kg" [ref=e521]: $6.79 / 1kg
+                  - generic:
+                    - paragraph
+                - generic [ref=e522]:
+                  - heading "$12.90 each." [level=3] [ref=e524]:
+                    - text: $
+                    - emphasis [ref=e525]: "12"
+                    - generic [ref=e526]: "90"
+                  - generic [ref=e528]:
+                    - generic "Was 17.5$" [ref=e529]: Was $17.50
+                    - generic "Save 4.6$" [ref=e530]: Save $4.60
+              - generic [ref=e531]:
+                - paragraph [ref=e536]: 0 in trolley
+                - button "Add woolworths chicken whole to trolley" [ref=e538] [cursor=pointer]: Add to trolley
+              - button "Add shopper notes related to woolworths chicken whole" [ref=e540] [cursor=pointer]
+            - article [ref=e545]:
+              - generic [ref=e547]:
+                - generic "Special." [ref=e548]: Special
+                - generic "Better than 1/2 price." [ref=e552]: Better than 1/2 price
+              - generic [ref=e553]:
+                - link "Sparkling Duet Soft Drink Orange Lemon330ml Cans6pack. $2.99 each. Was 6.89$ Save 3.9$ Special. Better than 1/2 price. Unit price $1.51 / 1L" [ref=e554] [cursor=pointer]:
+                  - /url: /shop/productdetails?stockcode=659483&name=sparkling-duet-soft-drink-orange-lemon
+                  - figure [ref=e555]:
+                    - img "Sparkling Duet Soft Drink Orange Lemon330ml Cans6pack." [ref=e557]
+                - link [ref=e558] [cursor=pointer]:
+                  - /url: /shop/productdetails?stockcode=659483&name=sparkling-duet-soft-drink-orange-lemon
+                  - heading "Sparkling Duet Soft Drink Orange Lemon330ml Cans6pack." [level=3] [ref=e559]: sparkling duet soft drink orange lemon 330ml cans 6pack
+                - generic [ref=e560]:
+                  - generic "Unit price $1.51 / 1L" [ref=e564]: $1.51 / 1L
+                  - generic:
+                    - paragraph
+                - generic [ref=e565]:
+                  - heading "$2.99 each." [level=3] [ref=e567]:
+                    - text: $
+                    - emphasis [ref=e568]: "2"
+                    - generic [ref=e569]: "99"
+                  - generic [ref=e571]:
+                    - generic "Was 6.89$" [ref=e572]: Was $6.89
+                    - generic "Save 3.9$" [ref=e573]: Save $3.90
+              - generic [ref=e574]:
+                - paragraph [ref=e579]: 0 in trolley
+                - button "Add sparkling duet soft drink orange lemon to trolley" [ref=e581] [cursor=pointer]: Add to trolley
+              - button "Add shopper notes related to sparkling duet soft drink orange lemon" [ref=e583] [cursor=pointer]
+            - article [ref=e588]:
+              - generic [ref=e590]:
+                - generic "Special." [ref=e591]: Special
+                - generic "20% Off." [ref=e595]: 20% Off
+              - generic [ref=e596]:
+                - link "Woolworths Streaky Bacon Honey Cured1kg. $16.79 each. Was 20.99$ Save 4.2$ Special. 20% Off. Unit price $16.79 / 1kg" [ref=e597] [cursor=pointer]:
+                  - /url: /shop/productdetails?stockcode=797769&name=woolworths-streaky-bacon-honey-cured
+                  - figure [ref=e598]:
+                    - img "Woolworths Streaky Bacon Honey Cured1kg." [ref=e600]
+                - link [ref=e601] [cursor=pointer]:
+                  - /url: /shop/productdetails?stockcode=797769&name=woolworths-streaky-bacon-honey-cured
+                  - heading "Woolworths Streaky Bacon Honey Cured1kg." [level=3] [ref=e602]: woolworths streaky bacon honey cured 1kg
+                - generic [ref=e603]:
+                  - generic "Unit price $16.79 / 1kg" [ref=e607]: $16.79 / 1kg
+                  - generic:
+                    - paragraph
+                - generic [ref=e608]:
+                  - heading "$16.79 each." [level=3] [ref=e610]:
+                    - text: $
+                    - emphasis [ref=e611]: "16"
+                    - generic [ref=e612]: "79"
+                  - generic [ref=e614]:
+                    - generic "Was 20.99$" [ref=e615]: Was $20.99
+                    - generic "Save 4.2$" [ref=e616]: Save $4.20
+              - generic [ref=e617]:
+                - paragraph [ref=e622]: 0 in trolley
+                - button "Add woolworths streaky bacon honey cured to trolley" [ref=e624] [cursor=pointer]: Add to trolley
+              - button "Add shopper notes related to woolworths streaky bacon honey cured" [ref=e626] [cursor=pointer]
+            - article [ref=e631]:
+              - link [ref=e633] [cursor=pointer]:
+                - /url: /shop/content/disney-ooshies
+                - img "Buy 1 participating product to get a Bonus OOSHIE^." [ref=e634]
+              - generic [ref=e636]:
+                - link "Farmer Brown Eggs Cage Free Barn Size 6carton12pack. $7.80 each. Was 9.95$ Save 2.15$ Buy 1 participating product to get a Bonus OOSHIE^. Unit price $0.65 / 1ea" [ref=e637] [cursor=pointer]:
+                  - /url: /shop/productdetails?stockcode=52216&name=farmer-brown-eggs-cage-free-barn-size-6
+                  - figure [ref=e638]:
+                    - generic [ref=e639]:
+                      - img "Farmer Brown Eggs Cage Free Barn Size 6carton12pack."
+                - link [ref=e640] [cursor=pointer]:
+                  - /url: /shop/productdetails?stockcode=52216&name=farmer-brown-eggs-cage-free-barn-size-6
+                  - heading "Farmer Brown Eggs Cage Free Barn Size 6carton12pack." [level=3] [ref=e641]: farmer brown eggs cage free barn size 6 Carton 12pack
+                - generic [ref=e642]:
+                  - generic "Unit price $0.65 / 1ea" [ref=e646]: $0.65 / 1ea
+                  - generic:
+                    - paragraph
+                - generic [ref=e647]:
+                  - heading "$7.80 each." [level=3] [ref=e649]:
+                    - text: $
+                    - emphasis [ref=e650]: "7"
+                    - generic [ref=e651]: "80"
+                  - generic [ref=e653]:
+                    - generic "Was 9.95$" [ref=e654]: Was $9.95
+                    - generic "Save 2.15$" [ref=e655]: Save $2.15
+              - generic [ref=e656]:
+                - paragraph [ref=e661]: 0 in trolley
+                - button "Add farmer brown eggs cage free barn size 6 to trolley" [ref=e663] [cursor=pointer]: Add to trolley
+              - button "Add shopper notes related to farmer brown eggs cage free barn size 6" [ref=e665] [cursor=pointer]
+            - article [ref=e670]:
+              - generic [ref=e672]:
+                - generic "Special." [ref=e673]: Special
+                - generic "25% Off." [ref=e677]: 25% Off
+              - generic [ref=e678]:
+                - link "Musashi Energy Drink Shred Raspberry Lemonade355ml. $2.99 each. Was 4$ Save 1.01$ Special. 25% Off. Unit price $8.42 / 1L" [ref=e679] [cursor=pointer]:
+                  - /url: /shop/productdetails?stockcode=6035222&name=musashi-energy-drink-shred-raspberry-lemonade
+                  - figure [ref=e680]:
+                    - generic [ref=e681]:
+                      - img "Musashi Energy Drink Shred Raspberry Lemonade355ml."
+                - link [ref=e682] [cursor=pointer]:
+                  - /url: /shop/productdetails?stockcode=6035222&name=musashi-energy-drink-shred-raspberry-lemonade
+                  - heading "Musashi Energy Drink Shred Raspberry Lemonade355ml." [level=3] [ref=e683]: musashi energy drink shred raspberry lemonade 355mL
+                - generic [ref=e684]:
+                  - generic "Unit price $8.42 / 1L" [ref=e688]: $8.42 / 1L
+                  - generic:
+                    - paragraph
+                - generic [ref=e689]:
+                  - heading "$2.99 each." [level=3] [ref=e691]:
+                    - text: $
+                    - emphasis [ref=e692]: "2"
+                    - generic [ref=e693]: "99"
+                  - generic [ref=e695]:
+                    - generic "Was 4$" [ref=e696]: Was $4.00
+                    - generic "Save 1.01$" [ref=e697]: Save $1.01
+              - generic [ref=e698]:
+                - paragraph [ref=e703]: 0 in trolley
+                - button "Add musashi energy drink shred raspberry lemonade to trolley" [ref=e705] [cursor=pointer]: Add to trolley
+              - button "Add shopper notes related to musashi energy drink shred raspberry lemonade" [ref=e707] [cursor=pointer]
+            - article [ref=e712]:
+              - generic [ref=e714]:
+                - generic "Special." [ref=e715]: Special
+                - generic "20% Off." [ref=e719]: 20% Off
+              - generic [ref=e720]:
+                - link "Sealord Sensations Tuna Smokedtear Tab Can95g. $2.20 each. Was 2.8$ Save 0.6$ Special. 20% Off. Unit price $23.16 / 1kg" [ref=e721] [cursor=pointer]:
+                  - /url: /shop/productdetails?stockcode=200958&name=sealord-sensations-tuna-smoked
+                  - figure [ref=e722]:
+                    - generic [ref=e723]:
+                      - img "Sealord Sensations Tuna Smokedtear Tab Can95g."
+                - link [ref=e724] [cursor=pointer]:
+                  - /url: /shop/productdetails?stockcode=200958&name=sealord-sensations-tuna-smoked
+                  - heading "Sealord Sensations Tuna Smokedtear Tab Can95g." [level=3] [ref=e725]: sealord sensations tuna smoked Tear tab can 95g
+                - generic [ref=e726]:
+                  - generic "Unit price $23.16 / 1kg" [ref=e730]: $23.16 / 1kg
+                  - generic:
+                    - paragraph
+                - generic [ref=e731]:
+                  - heading "$2.20 each." [level=3] [ref=e733]:
+                    - text: $
+                    - emphasis [ref=e734]: "2"
+                    - generic [ref=e735]: "20"
+                  - generic [ref=e737]:
+                    - generic "Was 2.8$" [ref=e738]: Was $2.80
+                    - generic "Save 0.6$" [ref=e739]: Save $0.60
+              - generic [ref=e740]:
+                - paragraph [ref=e745]: 0 in trolley
+                - button "Add sealord sensations tuna smoked to trolley" [ref=e747] [cursor=pointer]: Add to trolley
+              - button "Add shopper notes related to sealord sensations tuna smoked" [ref=e749] [cursor=pointer]
+            - article [ref=e754]:
+              - generic [ref=e756]:
+                - generic "Special." [ref=e757]: Special
+                - generic "Save $5.00." [ref=e761]: Save $5.00
+              - generic [ref=e762]:
+                - link "Asahi Beer Super Dry Lagerbottle12x330ml. $26.99 each. Was 31.99$ Save 5$ Special. Save $5.00." [ref=e763] [cursor=pointer]:
+                  - /url: /shop/productdetails?stockcode=742662&name=asahi-beer-super-dry-lager
+                  - figure [ref=e764]:
+                    - generic [ref=e765]:
+                      - img "Asahi Beer Super Dry Lagerbottle12x330ml."
+                - link [ref=e766] [cursor=pointer]:
+                  - /url: /shop/productdetails?stockcode=742662&name=asahi-beer-super-dry-lager
+                  - heading "Asahi Beer Super Dry Lagerbottle12x330ml." [level=3] [ref=e767]: asahi beer super dry lager Bottle 12x330mL
+                - generic [ref=e768]:
+                  - generic:
+                    - paragraph
+                - generic [ref=e772]:
+                  - heading "$26.99 each." [level=3] [ref=e774]:
+                    - text: $
+                    - emphasis [ref=e775]: "26"
+                    - generic [ref=e776]: "99"
+                  - generic [ref=e778]:
+                    - generic "Was 31.99$" [ref=e779]: Was $31.99
+                    - generic "Save 5$" [ref=e780]: Save $5.00
+              - generic [ref=e781]:
+                - paragraph [ref=e786]: 0 in trolley
+                - button "Add asahi beer super dry lager to trolley" [ref=e788] [cursor=pointer]: Add to trolley
+              - button "Add shopper notes related to asahi beer super dry lager" [ref=e790] [cursor=pointer]
+            - article [ref=e795]:
+              - generic "Special." [ref=e798]: Special
+              - generic [ref=e803]:
+                - link "Villa Maria Private Bin Sauvignon Blanc Bottle750ml. $11.99 each. Special." [ref=e804] [cursor=pointer]:
+                  - /url: /shop/productdetails?stockcode=902184&name=villa-maria-private-bin-sauvignon-blanc
+                  - figure [ref=e805]:
+                    - generic [ref=e806]:
+                      - img "Villa Maria Private Bin Sauvignon Blanc Bottle750ml."
+                - link [ref=e807] [cursor=pointer]:
+                  - /url: /shop/productdetails?stockcode=902184&name=villa-maria-private-bin-sauvignon-blanc
+                  - heading "Villa Maria Private Bin Sauvignon Blanc Bottle750ml." [level=3] [ref=e808]: villa maria private bin sauvignon blanc Bottle 750mL
+                - generic [ref=e809]:
+                  - generic:
+                    - paragraph
+                - heading "$11.99 each." [level=3] [ref=e815]:
+                  - text: $
+                  - emphasis [ref=e816]: "11"
+                  - generic [ref=e817]: "99"
+              - generic [ref=e819]:
+                - paragraph [ref=e824]: 0 in trolley
+                - button "Add villa maria private bin sauvignon blanc to trolley" [ref=e826] [cursor=pointer]: Add to trolley
+              - button "Add shopper notes related to villa maria private bin sauvignon blanc" [ref=e828] [cursor=pointer]
+            - article [ref=e833]:
+              - generic [ref=e835]:
+                - generic "Special." [ref=e836]: Special
+                - generic "33% Off." [ref=e840]: 33% Off
+              - generic [ref=e841]:
+                - link "Johnsons Body Wash Dreamy Skinpump1l. $6.99 each. Was 11.29$ Save 4.3$ Special. 33% Off. Unit price $0.70 / 100mL" [ref=e842] [cursor=pointer]:
+                  - /url: /shop/productdetails?stockcode=725020&name=johnsons-body-wash-dreamy-skin
+                  - figure [ref=e843]:
+                    - generic [ref=e844]:
+                      - img "Johnsons Body Wash Dreamy Skinpump1l."
+                - link [ref=e845] [cursor=pointer]:
+                  - /url: /shop/productdetails?stockcode=725020&name=johnsons-body-wash-dreamy-skin
+                  - heading "Johnsons Body Wash Dreamy Skinpump1l." [level=3] [ref=e846]: johnsons body wash dreamy skin Pump 1L
+                - generic [ref=e847]:
+                  - generic "Unit price $0.70 / 100mL" [ref=e851]: $0.70 / 100mL
+                  - generic:
+                    - paragraph
+                - generic [ref=e852]:
+                  - heading "$6.99 each." [level=3] [ref=e854]:
+                    - text: $
+                    - emphasis [ref=e855]: "6"
+                    - generic [ref=e856]: "99"
+                  - generic [ref=e858]:
+                    - generic "Was 11.29$" [ref=e859]: Was $11.29
+                    - generic "Save 4.3$" [ref=e860]: Save $4.30
+              - generic [ref=e861]:
+                - paragraph [ref=e866]: 0 in trolley
+                - button "Add johnsons body wash dreamy skin to trolley" [ref=e868] [cursor=pointer]: Add to trolley
+              - button "Add shopper notes related to johnsons body wash dreamy skin" [ref=e870] [cursor=pointer]
+            - article [ref=e875]:
+              - generic [ref=e877]:
+                - generic "Special." [ref=e878]: Special
+                - generic "25% Off." [ref=e882]: 25% Off
+              - generic [ref=e883]:
+                - link "Healtheries Vitamin C 1000mg100pack. $17.50 each. Was 23.99$ Save 6.49$ Special. 25% Off. Unit price $17.50 / 100ea" [ref=e884] [cursor=pointer]:
+                  - /url: /shop/productdetails?stockcode=720881&name=healtheries-vitamin-c-1000mg
+                  - figure [ref=e885]:
+                    - generic [ref=e886]:
+                      - img "Healtheries Vitamin C 1000mg100pack."
+                - link [ref=e887] [cursor=pointer]:
+                  - /url: /shop/productdetails?stockcode=720881&name=healtheries-vitamin-c-1000mg
+                  - heading "Healtheries Vitamin C 1000mg100pack." [level=3] [ref=e888]: healtheries vitamin c 1000mg 100pack
+                - generic [ref=e889]:
+                  - generic "Unit price $17.50 / 100ea" [ref=e893]: $17.50 / 100ea
+                  - generic:
+                    - paragraph
+                - generic [ref=e894]:
+                  - heading "$17.50 each." [level=3] [ref=e896]:
+                    - text: $
+                    - emphasis [ref=e897]: "17"
+                    - generic [ref=e898]: "50"
+                  - generic [ref=e900]:
+                    - generic "Was 23.99$" [ref=e901]: Was $23.99
+                    - generic "Save 6.49$" [ref=e902]: Save $6.49
+              - generic [ref=e903]:
+                - paragraph [ref=e908]: 0 in trolley
+                - button "Add healtheries vitamin c 1000mg to trolley" [ref=e910] [cursor=pointer]: Add to trolley
+              - button "Add shopper notes related to healtheries vitamin c 1000mg" [ref=e912] [cursor=pointer]
+            - article [ref=e917]:
+              - generic [ref=e919]:
+                - generic "Special." [ref=e920]: Special
+                - generic "40% Off." [ref=e924]: 40% Off
+              - generic [ref=e925]:
+                - link "Colgate 360 Whole Mouth Clean Toothbrush Medium Bristles Value Pack2pack. $5.99 each. Was 9.99$ Save 4$ Special. 40% Off. Unit price $3.00 / 1ea" [ref=e926] [cursor=pointer]:
+                  - /url: /shop/productdetails?stockcode=254548&name=colgate-360-whole-mouth-clean-toothbrush-medium-bristles-value-pack
+                  - figure [ref=e927]:
+                    - generic [ref=e928]:
+                      - img "Colgate 360 Whole Mouth Clean Toothbrush Medium Bristles Value Pack2pack."
+                - link [ref=e929] [cursor=pointer]:
+                  - /url: /shop/productdetails?stockcode=254548&name=colgate-360-whole-mouth-clean-toothbrush-medium-bristles-value-pack
+                  - heading "Colgate 360 Whole Mouth Clean Toothbrush Medium Bristles Value Pack2pack." [level=3] [ref=e930]: colgate 360 whole mouth clean toothbrush medium bristles value pack 2pack
+                - generic [ref=e931]:
+                  - generic "Unit price $3.00 / 1ea" [ref=e935]: $3.00 / 1ea
+                  - generic:
+                    - paragraph
+                - generic [ref=e936]:
+                  - heading "$5.99 each." [level=3] [ref=e938]:
+                    - text: $
+                    - emphasis [ref=e939]: "5"
+                    - generic [ref=e940]: "99"
+                  - generic [ref=e942]:
+                    - generic "Was 9.99$" [ref=e943]: Was $9.99
+                    - generic "Save 4$" [ref=e944]: Save $4.00
+              - generic [ref=e945]:
+                - paragraph [ref=e950]: 0 in trolley
+                - button "Add colgate 360 whole mouth clean toothbrush medium bristles value pack to trolley" [ref=e952] [cursor=pointer]: Add to trolley
+              - button "Add shopper notes related to colgate 360 whole mouth clean toothbrush medium bristles value pack" [ref=e954] [cursor=pointer]
+            - article [ref=e959]:
+              - generic [ref=e961]:
+                - generic "Special." [ref=e962]: Special
+                - generic "25% Off." [ref=e966]: 25% Off
+              - generic [ref=e967]:
+                - link "Surf Washing Liquid Coastal Luxury 40 Washesbottle2l. $12.99 each. Was 17.5$ Save 4.51$ Special. 25% Off. Unit price $0.65 / 100mL" [ref=e968] [cursor=pointer]:
+                  - /url: /shop/productdetails?stockcode=681576&name=surf-washing-liquid-coastal-luxury-40-washes
+                  - figure [ref=e969]:
+                    - generic [ref=e970]:
+                      - img "Surf Washing Liquid Coastal Luxury 40 Washesbottle2l."
+                - link [ref=e971] [cursor=pointer]:
+                  - /url: /shop/productdetails?stockcode=681576&name=surf-washing-liquid-coastal-luxury-40-washes
+                  - heading "Surf Washing Liquid Coastal Luxury 40 Washesbottle2l." [level=3] [ref=e972]: surf washing liquid coastal luxury 40 washes Bottle 2L
+                - generic [ref=e973]:
+                  - generic "Unit price $0.65 / 100mL" [ref=e977]: $0.65 / 100mL
+                  - generic:
+                    - paragraph
+                - generic [ref=e978]:
+                  - heading "$12.99 each." [level=3] [ref=e980]:
+                    - text: $
+                    - emphasis [ref=e981]: "12"
+                    - generic [ref=e982]: "99"
+                  - generic [ref=e984]:
+                    - generic "Was 17.5$" [ref=e985]: Was $17.50
+                    - generic "Save 4.51$" [ref=e986]: Save $4.51
+              - generic [ref=e987]:
+                - paragraph [ref=e992]: 0 in trolley
+                - button "Add surf washing liquid coastal luxury 40 washes to trolley" [ref=e994] [cursor=pointer]: Add to trolley
+              - button "Add shopper notes related to surf washing liquid coastal luxury 40 washes" [ref=e996] [cursor=pointer]
+          - button "next" [ref=e1000] [cursor=pointer]
+      - generic [ref=e1006]:
+        - img "Everyday Rewards" [ref=e1008]
+        - generic [ref=e1009]:
+          - heading "Give your everyday a boost" [level=3] [ref=e1010]
+          - paragraph [ref=e1011]: Learn how you can collect Everyday Rewards points and shop with your personalised Boost offers to enjoy rewards faster.
+        - link "Explore Everyday Rewards" [ref=e1012] [cursor=pointer]:
+          - /url: https://account.countdown.co.nz/everyday-rewards
+      - heading "Check out this Week’s Offers" [level=2] [ref=e1018]
+      - list [ref=e1023]:
+        - listitem [ref=e1025]:
+          - link "Shop Now Shop this weeks Back to School offers" [ref=e1027] [cursor=pointer]:
+            - /url: /shop/browse/back-to-school?promo_position=HP%20tiles&promo_creative=Tile&promo_name=&itemID=F2704-AT-BacktoSchool
+            - generic [ref=e1028]: Shop Now
+            - img "Shop this weeks Back to School offers" [ref=e1029]
+        - listitem [ref=e1031]:
+          - link "Shop now Check out this week's Household specials" [ref=e1033] [cursor=pointer]:
+            - /url: /shop/browse/household?filters=Specials;Specials;Specials;true;Specials&page=1&inStockProductsOnly=false?promo_position=HP%20tiles&promo_creative=Tile&promo_name=&itemID=F2704-AT-Household
+            - generic [ref=e1034]: Shop now
+            - img "Check out this week's Household specials" [ref=e1035]
+        - listitem [ref=e1037]:
+          - link "Shop Now Shop this weeks Frozen specials" [ref=e1039] [cursor=pointer]:
+            - /url: /shop/browse/frozen?filters=Specials;Specials;Specials;true;Specials&page=1&inStockProductsOnly=false?promo_position=HP%20tiles&promo_creative=Tile&promo_name=&itemID=F2704-AT-Frozen
+            - generic [ref=e1040]: Shop Now
+            - img "Shop this weeks Frozen specials" [ref=e1041]
+        - listitem [ref=e1043]:
+          - link "Shop now Check out this weeks Health & Body sale" [ref=e1045] [cursor=pointer]:
+            - /url: /shop/content/health-body?promo_position=HP%20tiles&promo_creative=Tile&promo_name=&itemID=F2704-AT-HealthBodySale
+            - generic [ref=e1046]: Shop now
+            - img "Check out this weeks Health & Body sale" [ref=e1047]
+      - link [ref=e1052] [cursor=pointer]:
+        - /url: https://www.woolworths.co.nz/shop/content/weeklymailer?promo_position=Header%20banner&promo_creative=Banner&promo_name=&itemID=HPMailerBanner
+        - img "Browse the mailer" [ref=e1054]
+      - heading "Discover More" [level=2] [ref=e1059]
+      - list [ref=e1064]:
+        - listitem [ref=e1066]:
+          - link [ref=e1069] [cursor=pointer]:
+            - /url: /info/community-and-environment/food-for-good/salvation-army/appeal
+            - img "It feels good to give a little warmth. Please give what you can to the Winter Appeal. You can round up at the checkout or donate at the foodbank.org.nz." [ref=e1071]
+            - generic [ref=e1072]:
+              - heading "It feels good to give a little warmth" [level=4] [ref=e1073]
+              - paragraph [ref=e1077]: Please give what you can to the Winter Appeal. You can round up at the checkout or donate at the foodbank.org.nz
+        - listitem [ref=e1079]:
+          - link [ref=e1082] [cursor=pointer]:
+            - /url: /shop/content/10x-boost-offer?promo_position=HP%20tiles&promo_creative=Tile&promo_name=&itemID=F2704-DM-10xAMO
+            - img "Collect 10x points on brands you love. Boost and shop from participating brands at Woolworths to collect 10x points until 2 August. T&Cs apply." [ref=e1084]
+            - generic [ref=e1085]:
+              - heading "10x points on brands you love" [level=4] [ref=e1086]
+              - paragraph [ref=e1090]: Boost and shop from participating brands at Woolworths to collect 10x points until 2 August. T&Cs apply.
+        - listitem [ref=e1092]:
+          - link [ref=e1095] [cursor=pointer]:
+            - /url: /deliverysubscription/plans?promo_position=HP%20tiles&promo_creative=Tile&promo_name=&itemID=F2652-DM-DeliverySaver
+            - img "Order every week? Get unlimited deliveries for less than $6.50 per week on all orders over $100. Start your 30-day free trial today. Cancel anytime." [ref=e1097]
+            - generic [ref=e1098]:
+              - heading "Delivery Saver" [level=4] [ref=e1099]
+              - paragraph [ref=e1103]: Order every week? Get unlimited deliveries for less than $6.50 per week on all orders over $100. Start your 30-day free trial today. Cancel anytime.
+        - listitem [ref=e1105]
+      - generic [ref=e1110]:
+        - heading "Cook with this week's Fresh Deal" [level=2] [ref=e1111]
+        - paragraph [ref=e1112]:
+          - text: Grab juicy
+          - link "Navel oranges" [ref=e1113] [cursor=pointer]:
+            - /url: https://www.woolworths.co.nz/shop/productdetails?stockcode=149885
+          - text: now for $3.50kg. Jazz up your cakes, and salads, or even enjoy them in a Dark Chocolate pudding.
+      - list [ref=e1119]:
+        - listitem [ref=e1120]:
+          - generic [ref=e1122]:
+            - link [ref=e1123] [cursor=pointer]:
+              - /url: /recipes/snacks/1810/apricot-almond-and-orange-bliss-balls
+              - img "Apricot, Almond and Orange Bliss Balls" [ref=e1125]
+              - generic [ref=e1126]:
+                - generic [ref=e1127]:
+                  - list "Suitable for Snacks meals." [ref=e1129]:
+                    - listitem [ref=e1130]: Snacks
+                  - paragraph [ref=e1131]: Apricot, Almond and Orange Bliss Balls
+                - 'generic "Preparation time: 20 mins. Serves 30." [ref=e1133]':
+                  - term [ref=e1134]: Prep Time
+                  - definition [ref=e1135]:
+                    - generic [ref=e1136]: 20 mins
+                  - term [ref=e1140]: Servings
+                  - definition [ref=e1141]:
+                    - generic [ref=e1142]: "30"
+            - button "Add Apricot, Almond and Orange Bliss Balls to Saved Recipes" [ref=e1147] [cursor=pointer]
+        - listitem [ref=e1153]:
+          - generic [ref=e1155]:
+            - link [ref=e1156] [cursor=pointer]:
+              - /url: /recipes/dessert/3204/quick-whole-orange-cake
+              - img "Quick Whole Orange Cake" [ref=e1158]
+              - generic [ref=e1159]:
+                - generic [ref=e1160]:
+                  - list "Suitable for Dessert meals." [ref=e1162]:
+                    - listitem [ref=e1163]: Dessert
+                  - paragraph [ref=e1164]: Quick Whole Orange Cake
+                - 'generic "Preparation time: 20 mins. Cook time: 1 hr. Serves 8." [ref=e1166]':
+                  - term [ref=e1167]: Prep & Cook Time
+                  - definition [ref=e1168]:
+                    - generic [ref=e1169]: 20 mins + 1 hr
+                  - term [ref=e1173]: Servings
+                  - definition [ref=e1174]:
+                    - generic [ref=e1175]: "8"
+            - button "Add Quick Whole Orange Cake to Saved Recipes" [ref=e1180] [cursor=pointer]
+        - listitem [ref=e1186]:
+          - generic [ref=e1188]:
+            - link [ref=e1189] [cursor=pointer]:
+              - /url: /recipes/dinner/3077/beetroot-orange-and-haloumi-salad
+              - img "Beetroot, Orange & Haloumi Salad" [ref=e1191]
+              - generic [ref=e1192]:
+                - generic [ref=e1193]:
+                  - list "Suitable for Dinner and Lunch meals." [ref=e1195]:
+                    - listitem [ref=e1196]: Dinner
+                    - listitem [ref=e1197]: Lunch
+                  - paragraph [ref=e1198]: Beetroot, Orange & Haloumi Salad
+                - 'generic "Preparation time: 20 mins. Cook time: 30 mins. Serves 6." [ref=e1200]':
+                  - term [ref=e1201]: Prep & Cook Time
+                  - definition [ref=e1202]:
+                    - generic [ref=e1203]: 20 mins + 30 mins
+                  - term [ref=e1207]: Servings
+                  - definition [ref=e1208]:
+                    - generic [ref=e1209]: "6"
+            - button "Add Beetroot, Orange & Haloumi Salad to Saved Recipes" [ref=e1214] [cursor=pointer]
+        - listitem [ref=e1220]:
+          - generic [ref=e1222]:
+            - link [ref=e1223] [cursor=pointer]:
+              - /url: /recipes/dessert/3084/dark-chocolate-orange-and-chilli-croissant-pudding
+              - img "Dark Chocolate, Orange & Chilli Croissant Pudding" [ref=e1225]
+              - generic [ref=e1226]:
+                - generic [ref=e1227]:
+                  - list "Suitable for Dessert meals." [ref=e1229]:
+                    - listitem [ref=e1230]: Dessert
+                  - paragraph [ref=e1231]: Dark Chocolate, Orange & Chilli Croissant Pudding
+                - 'generic "Preparation time: 15 mins. Cook time: 35 mins. Serves 6-8." [ref=e1233]':
+                  - term [ref=e1234]: Prep & Cook Time
+                  - definition [ref=e1235]:
+                    - generic [ref=e1236]: 15 mins + 35 mins
+                  - term [ref=e1240]: Servings
+                  - definition [ref=e1241]:
+                    - generic [ref=e1242]: 6-8
+            - button "Add Dark Chocolate, Orange & Chilli Croissant Pudding to Saved Recipes" [ref=e1247] [cursor=pointer]
+        - listitem [ref=e1253]:
+          - generic [ref=e1255]:
+            - link [ref=e1256] [cursor=pointer]:
+              - /url: /recipes/dessert/2835/orange-cornflake-cookies
+              - img "Orange Cornflake Cookies" [ref=e1258]
+              - generic [ref=e1259]:
+                - generic [ref=e1260]:
+                  - list "Suitable for Dessert and Snacks meals." [ref=e1262]:
+                    - listitem [ref=e1263]: Dessert
+                    - listitem [ref=e1264]: Snacks
+                  - paragraph [ref=e1265]: Orange Cornflake Cookies
+                - 'generic "Preparation time: 5 mins. Cook time: 15 mins. Serves 18." [ref=e1267]':
+                  - term [ref=e1268]: Prep & Cook Time
+                  - definition [ref=e1269]:
+                    - generic [ref=e1270]: 5 mins + 15 mins
+                  - term [ref=e1274]: Servings
+                  - definition [ref=e1275]:
+                    - generic [ref=e1276]: "18"
+            - button "Add Orange Cornflake Cookies to Saved Recipes" [ref=e1281] [cursor=pointer]
+  - contentinfo [ref=e1290]:
+    - generic [ref=e1291]:
+      - generic [ref=e1292]:
+        - generic [ref=e1293]:
+          - heading "Save at Woolworths" [level=4] [ref=e1294]
+          - list [ref=e1295]:
+            - listitem [ref=e1296]:
+              - link "Specials & offers" [ref=e1297] [cursor=pointer]:
+                - /url: /shop/specials
+            - listitem [ref=e1298]:
+              - link "Mailer" [ref=e1299] [cursor=pointer]:
+                - /url: /shop/content/weeklymailer
+            - listitem [ref=e1300]:
+              - link "Delivery saver" [ref=e1301] [cursor=pointer]:
+                - /url: /deliverysubscription/plans
+            - listitem [ref=e1302]:
+              - link "Boosts" [ref=e1303] [cursor=pointer]:
+                - /url: https://account.woolworths.co.nz/everyday-rewards
+            - listitem [ref=e1304]:
+              - link "Our pricing" [ref=e1305] [cursor=pointer]:
+                - /url: /info/our-pricing
+        - generic [ref=e1306]:
+          - heading "Stores and services" [level=4] [ref=e1307]
+          - list [ref=e1308]:
+            - listitem [ref=e1309]:
+              - link "Store locations and hours" [ref=e1310] [cursor=pointer]:
+                - /url: /store-finder
+            - listitem [ref=e1311]:
+              - link "Online shopping" [ref=e1312] [cursor=pointer]:
+                - /url: /info/online-shopping
+            - listitem [ref=e1313]:
+              - link "Pharmacy" [ref=e1314] [cursor=pointer]:
+                - /url: /info/services/pharmacy
+            - listitem [ref=e1315]:
+              - link "Gift cards" [ref=e1316] [cursor=pointer]:
+                - /url: /info/services/gift-cards
+            - listitem [ref=e1317]:
+              - link "More services" [ref=e1318] [cursor=pointer]:
+                - /url: /info/services
+        - generic [ref=e1319]:
+          - heading "Customer service" [level=4] [ref=e1320]
+          - list [ref=e1321]:
+            - listitem [ref=e1322]:
+              - link "My orders" [ref=e1323] [cursor=pointer]:
+                - /url: account/orders
+            - listitem [ref=e1324]:
+              - link "Manage account" [ref=e1325] [cursor=pointer]:
+                - /url: /account
+            - listitem [ref=e1326]:
+              - link "FAQs" [ref=e1327] [cursor=pointer]:
+                - /url: /shop/content/faqs
+            - listitem [ref=e1328]:
+              - link "Complaints and refunds" [ref=e1329] [cursor=pointer]:
+                - /url: /info/policies/refund-policy
+            - listitem [ref=e1330]:
+              - link "Contact us" [ref=e1331] [cursor=pointer]:
+                - /url: /about-us/contact-us
+        - generic [ref=e1332]:
+          - heading "About Woolworths NZ" [level=4] [ref=e1333]
+          - list [ref=e1334]:
+            - listitem [ref=e1335]:
+              - link "About us" [ref=e1336] [cursor=pointer]:
+                - /url: /info/about-us
+            - listitem [ref=e1337]:
+              - link "Community and environment" [ref=e1338] [cursor=pointer]:
+                - /url: /info/community-and-environment
+            - listitem [ref=e1339]:
+              - link "Careers" [ref=e1340] [cursor=pointer]:
+                - /url: https://careers.woolworthsgroup.com.au/en_GB/apply
+            - listitem [ref=e1341]:
+              - link "News and media" [ref=e1342] [cursor=pointer]:
+                - /url: /info/news-and-media-releases
+            - listitem [ref=e1343]:
+              - link "Wholesale supply" [ref=e1344] [cursor=pointer]:
+                - /url: /info/about-us/about-woolworths-nz
+      - generic [ref=e1345]:
+        - generic [ref=e1346]:
+          - heading "Get the Woolworths NZ app" [level=4] [ref=e1347]
+          - generic [ref=e1348]:
+            - link [ref=e1349] [cursor=pointer]:
+              - /url: https://itunes.apple.com/nz/app/countdown-pick-up/id1278164689?mt=8
+              - img "Download on the App Store" [ref=e1350]
+            - link [ref=e1351] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=nz.co.countdown.android.pickup&hl=en
+              - img "Get it on Google Play" [ref=e1352]
+        - generic [ref=e1353]:
+          - heading "We're social..." [level=4] [ref=e1354]
+          - generic [ref=e1355]:
+            - link [ref=e1356] [cursor=pointer]:
+              - /url: https://www.facebook.com/woolworthsnewzealand
+              - img "Facebook icon" [ref=e1357]
+            - link [ref=e1358] [cursor=pointer]:
+              - /url: https://www.pinterest.nz/woolworths_nz
+              - img "Pinterest icon" [ref=e1359]
+            - link [ref=e1360] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/woolworths-new-zealand
+              - img "LinkedIn icon" [ref=e1361]
+            - link [ref=e1362] [cursor=pointer]:
+              - /url: https://www.youtube.com/@woolworths_nz
+              - img "Youtube icon" [ref=e1363]
+            - link [ref=e1364] [cursor=pointer]:
+              - /url: https://www.instagram.com/woolworths_nz/
+              - img "Instagram icon" [ref=e1365]
+            - link [ref=e1366] [cursor=pointer]:
+              - /url: /
+              - img "shielded" [ref=e1367]
+    - navigation [ref=e1369]:
+      - list [ref=e1370]:
+        - listitem [ref=e1371]:
+          - link [ref=e1372] [cursor=pointer]:
+            - /url: https://account.woolworths.co.nz/everyday-rewards
+            - img "Everyday Rewards" [ref=e1374]
+        - listitem [ref=e1375]:
+          - link [ref=e1376] [cursor=pointer]:
+            - /url: https://bunch.woolworths.co.nz/s/home
+            - img "Bunch" [ref=e1378]
+        - listitem [ref=e1379]:
+          - link [ref=e1380] [cursor=pointer]:
+            - /url: /info/about-us/about-woolworths-nz
+            - img "NZ Grocery Wholesalers" [ref=e1382]
+    - generic [ref=e1385]:
+      - generic [ref=e1386]: © Woolworths New Zealand Limited 2026 - all rights reserved.
+      - list [ref=e1387]:
+        - listitem [ref=e1388]:
+          - link "Liquor licenses" [ref=e1389] [cursor=pointer]:
+            - /url: /shop/content/liquor-licences
+        - listitem [ref=e1390]:
+          - link "Pay remediation" [ref=e1391] [cursor=pointer]:
+            - /url: /shop/content/holidays-act-remediation
+        - listitem [ref=e1392]:
+          - link "Privacy centre" [ref=e1393] [cursor=pointer]:
+            - /url: /info/privacy
+        - listitem [ref=e1394]:
+          - link "Terms & conditions" [ref=e1395] [cursor=pointer]:
+            - /url: /info/terms-and-conditions
+  - button "Olive Roundel Ask Olive" [ref=e1397] [cursor=pointer]:
+    - img "Olive Roundel" [ref=e1398]
+    - generic [ref=e1399]: Ask Olive

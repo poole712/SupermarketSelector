@@ -1,0 +1,283 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - link "Skip to main content" [ref=e3] [cursor=pointer]:
+      - /url: "#main"
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - generic [ref=e8]:
+          - generic [ref=e9]:
+            - button [ref=e11] [cursor=pointer]:
+              - paragraph [ref=e15]: Your store is PAK'nSAVE Royal Oak
+            - button [ref=e18] [cursor=pointer]:
+              - paragraph [ref=e22]: Choose a timeslot
+          - paragraph [ref=e28]:
+            - link "Log in" [ref=e29] [cursor=pointer]:
+              - /url: /shop/my-account?loginURLRedirect=https%3A%2F%2Fwww.paknsave.co.nz%2F
+            - text: or
+            - link "join" [ref=e30] [cursor=pointer]:
+              - /url: /shop/signup
+          - generic [ref=e31]:
+            - paragraph [ref=e32]:
+              - paragraph [ref=e33]: Hi there,
+            - generic [ref=e34]:
+              - generic [ref=e35]: You’re currently shopping from PAK'nSAVE Royal Oak.
+              - generic [ref=e36]:
+                - button "Change store" [ref=e37] [cursor=pointer]
+                - button "Start shopping" [ref=e38] [cursor=pointer]
+            - button "Close" [ref=e39] [cursor=pointer]
+        - generic [ref=e45]:
+          - link [ref=e47] [cursor=pointer]:
+            - /url: /
+            - img "PAK'nSAVE" [ref=e48]
+          - generic [ref=e52]:
+            - generic [ref=e53]: Search
+            - generic [ref=e55]:
+              - combobox "Search for" [ref=e59] [cursor=pointer]:
+                - option "Shopping" [selected]
+                - option "Other"
+              - textbox "Search" [ref=e60]:
+                - /placeholder: Search here...
+            - button "Search" [disabled] [ref=e61] [cursor=pointer]
+          - button "0 $0.00" [ref=e65] [cursor=pointer]:
+            - generic [ref=e66]: "0"
+            - paragraph [ref=e70]: $0.00
+        - generic [ref=e73]:
+          - button "Groceries" [ref=e75] [cursor=pointer]
+          - link "Deals" [ref=e79] [cursor=pointer]:
+            - /url: /shop/deals?pg=1
+          - link "My Lists" [ref=e81] [cursor=pointer]:
+            - /url: /shop/my-account/my-lists
+          - link "More" [ref=e83] [cursor=pointer]:
+            - /url: /more
+    - main [ref=e85]:
+      - generic [ref=e86]:
+        - heading "PAK'nSAVE Home" [level=1] [ref=e88]
+        - generic [ref=e90]:
+          - generic [ref=e91]:
+            - heading "Super Birthday Deals on now!" [level=1] [ref=e93]
+            - link "Shop now" [ref=e94] [cursor=pointer]:
+              - /url: https://www.paknsave.co.nz/shop/category/super-birthday-deals-week-1?pg=1
+          - img "FS31629_PNSNZ_PAK_Birthday_2026 - Hero Banner 1500x900px_02.jpg" [ref=e96]
+        - region "Quick links" [ref=e99]:
+          - generic [ref=e100]:
+            - generic [ref=e101]:
+              - group [ref=e102]:
+                - button [ref=e104] [cursor=pointer]:
+                  - paragraph [ref=e110]: Book slot
+              - group [ref=e111]:
+                - link [ref=e113] [cursor=pointer]:
+                  - /url: /shop/deals?pg=1
+                  - paragraph [ref=e120]: Deals
+              - group [ref=e121]:
+                - button [ref=e123] [cursor=pointer]:
+                  - paragraph [ref=e128]: Log in
+              - group [ref=e129]:
+                - link [ref=e131] [cursor=pointer]:
+                  - /url: https://login.clubplus.co.nz/?banner=PNS&channel=WEB
+                  - paragraph [ref=e138]: Register
+              - group [ref=e139]
+              - group [ref=e141]:
+                - link [ref=e143] [cursor=pointer]:
+                  - /url: /shop/category/beer-cider-and-wine?pg=1
+                  - paragraph [ref=e148]: Beer, cider & wine
+              - group [ref=e149]:
+                - link [ref=e151] [cursor=pointer]:
+                  - /url: /shop/category/fresh-foods-and-bakery/fruit--vegetables?pg=1
+                  - paragraph [ref=e156]: Fruit & vegetables
+              - group [ref=e157]:
+                - link [ref=e159] [cursor=pointer]:
+                  - /url: /shop/category/fresh-foods-and-bakery/butchery?pg=1
+                  - paragraph [ref=e164]: Butchery
+              - group [ref=e165]:
+                - link [ref=e167] [cursor=pointer]:
+                  - /url: /shop/category/drinks?pg=1
+                  - paragraph [ref=e172]: Drinks
+              - group [ref=e173]:
+                - link [ref=e175] [cursor=pointer]:
+                  - /url: /shop/category/chilled-frozen-and-desserts?pg=1
+                  - paragraph [ref=e180]: Chilled, frozen & desserts
+              - group [ref=e181]:
+                - link [ref=e183] [cursor=pointer]:
+                  - /url: /shop/category/pantry/snack-foods?pg=1
+                  - paragraph [ref=e188]: Snacks
+              - group [ref=e189]:
+                - link [ref=e191] [cursor=pointer]:
+                  - /url: /shop/category/pantry?pg=1
+                  - paragraph [ref=e196]: Pantry
+            - generic [ref=e197]:
+              - generic [ref=e198]:
+                - button "Go to slide 1" [disabled] [ref=e199] [cursor=pointer]
+                - button "Go to slide 2" [ref=e200] [cursor=pointer]
+              - generic [ref=e201]:
+                - button "Previous slide" [disabled]
+                - button "Next slide" [ref=e202] [cursor=pointer]
+        - button "NEW Whittaker's Gum Drop Block - Get the Inside Scoop" [ref=e210] [cursor=pointer]:
+          - img "NEW Whittaker's Gum Drop Block - Get the Inside Scoop" [ref=e211]
+        - region "What's on at PAK'nSAVE" [ref=e214]:
+          - heading "What's on at PAK'nSAVE" [level=2] [ref=e216]
+          - generic [ref=e218]:
+            - group [ref=e219]:
+              - link "Kids' Party on a Budget" [ref=e220] [cursor=pointer]:
+                - /url: /money-saving-tips/kids-party-catering
+                - img "Fairy-bread-promo-tile.jpg" [ref=e221]
+                - generic [ref=e222]:
+                  - generic [ref=e223]:
+                    - heading "Kids' Party on a Budget" [level=3] [ref=e224]
+                    - paragraph [ref=e225]: Helpful tips for planning a kids party on a budget with food ideas and more!
+                  - generic [ref=e226]: Find out more
+            - group [ref=e227]:
+              - link "Free Party Game!" [ref=e228] [cursor=pointer]:
+                - /url: /more/party-game
+                - img "FS23334---Party-game-promo-tile.png" [ref=e229]
+                - generic [ref=e230]:
+                  - generic [ref=e231]:
+                    - heading "Free Party Game!" [level=3] [ref=e232]
+                    - paragraph [ref=e233]: Pin the shorts on Stickman! Download your FREE party game here.
+                  - generic [ref=e234]: Find out more
+            - group [ref=e235]:
+              - link "Hosting on a budget" [ref=e236] [cursor=pointer]:
+                - /url: /recipes/how-to/entertaining-on-a-budget
+                - img "platter-promo-tile.jpg" [ref=e237]
+                - generic [ref=e238]:
+                  - generic [ref=e239]:
+                    - heading "Hosting on a budget" [level=3] [ref=e240]
+                    - paragraph [ref=e241]: Planning a party? Feeding a crowd? Here are some of our favourite tips and affordable recipes made for sharing.
+                  - generic [ref=e242]: Fid out more
+        - generic [ref=e246]:
+          - link "Join" [ref=e247] [cursor=pointer]:
+            - /url: /more/online-shopping
+          - link "Contact us" [ref=e251] [cursor=pointer]:
+            - /url: /contact-us/query-form
+          - link "Store finder" [ref=e255] [cursor=pointer]:
+            - /url: /store-finder
+        - generic [ref=e262]:
+          - generic [ref=e264]:
+            - heading "Why Shop Online With Us?" [level=2] [ref=e265]
+            - generic [ref=e270]:
+              - heading "New Zealand's lowest food prices" [level=1] [ref=e271]
+              - paragraph [ref=e272]: Our policy of NZ's lowest food prices means we do everything we can to keep prices low - which means the low prices you expect to find in store are also online.
+            - generic [ref=e283]:
+              - heading "Quicker shopping, faster savings" [level=1] [ref=e284]
+              - paragraph [ref=e285]: You can keep track of what you're spending as you go - no more surprises at checkout.
+            - generic [ref=e292]:
+              - heading "Keeping it simple" [level=1] [ref=e293]
+              - paragraph [ref=e294]: It's easy as - just place your order online and swing past to collect your groceries from the store.
+          - img "Surfs-up-homepage-square-2.jpg" [ref=e295]
+      - region "Notifications Alt+T"
+    - contentinfo [ref=e296]:
+      - generic [ref=e297]:
+        - generic [ref=e298]:
+          - generic [ref=e299]:
+            - generic [ref=e301]:
+              - paragraph [ref=e302]: Customer service
+              - generic [ref=e303]:
+                - paragraph [ref=e304]:
+                  - link "Contact us" [ref=e305] [cursor=pointer]:
+                    - /url: /contact-us/query-form
+                - paragraph [ref=e306]:
+                  - link "FAQs" [ref=e307] [cursor=pointer]:
+                    - /url: /shop/frequently-asked-questions
+                - paragraph [ref=e308]:
+                  - link "Store Finder" [ref=e309] [cursor=pointer]:
+                    - /url: /store-finder
+                - paragraph [ref=e310]:
+                  - link "Scam Alert" [ref=e311] [cursor=pointer]:
+                    - /url: /contact-us/scam-alert
+                - paragraph [ref=e312]:
+                  - link "Surveys" [ref=e313] [cursor=pointer]:
+                    - /url: /surveys
+                - paragraph [ref=e314]:
+                  - link "Foodstuffs North Island" [ref=e315] [cursor=pointer]:
+                    - /url: https://www.foodstuffs.co.nz/
+                - paragraph [ref=e316]:
+                  - link "Foodstuffs South Island" [ref=e317] [cursor=pointer]:
+                    - /url: https://www.foodstuffs-si.co.nz/
+                - paragraph [ref=e318]:
+                  - link "Become a supplier" [ref=e319] [cursor=pointer]:
+                    - /url: https://www.foodstuffs.co.nz/partnering-with-us/Becoming-a-supplier
+            - generic [ref=e321]:
+              - paragraph [ref=e322]: Legal
+              - generic [ref=e323]:
+                - paragraph [ref=e324]:
+                  - link "Privacy policy" [ref=e325] [cursor=pointer]:
+                    - /url: /privacy-policy
+                - paragraph [ref=e326]:
+                  - link "Website T&Cs" [ref=e327] [cursor=pointer]:
+                    - /url: /terms-and-conditions
+                - paragraph [ref=e328]:
+                  - link "Online shopping T&Cs" [ref=e329] [cursor=pointer]:
+                    - /url: /shop/terms-and-conditions
+                - paragraph [ref=e330]:
+                  - link "Club+ T&Cs" [ref=e331] [cursor=pointer]:
+                    - /url: https://www.clubplus.co.nz/terms
+                - paragraph [ref=e332]:
+                  - link "Liquor licence" [ref=e333] [cursor=pointer]:
+                    - /url: /shop/liquor-licence
+                - paragraph [ref=e334]:
+                  - link "North Island Refund Policy" [ref=e335] [cursor=pointer]:
+                    - /url: /terms-and-conditions/refund-policy-ni
+                - paragraph [ref=e336]:
+                  - link "South Island Refund Policy" [ref=e337] [cursor=pointer]:
+                    - /url: /terms-and-conditions/si-refund-and-returns-policy
+            - generic [ref=e339]:
+              - paragraph [ref=e340]: More
+              - generic [ref=e341]:
+                - paragraph [ref=e342]:
+                  - link "Catering" [ref=e343] [cursor=pointer]:
+                    - /url: /more/catering
+                - paragraph [ref=e344]:
+                  - link "Christmas club" [ref=e345] [cursor=pointer]:
+                    - /url: /more/christmas-club
+                - paragraph [ref=e346]:
+                  - link "Click & Collect" [ref=e347] [cursor=pointer]:
+                    - /url: /more/online-shopping
+                - paragraph [ref=e348]:
+                  - link "Club+" [ref=e349] [cursor=pointer]:
+                    - /url: https://www.clubplus.co.nz/
+                - paragraph [ref=e350]:
+                  - link "Fuel" [ref=e351] [cursor=pointer]:
+                    - /url: /fuel
+                - paragraph [ref=e352]:
+                  - link "Gift cards" [ref=e353] [cursor=pointer]:
+                    - /url: /more/gift-cards
+                - paragraph [ref=e354]:
+                  - link "Jobs" [ref=e355] [cursor=pointer]:
+                    - /url: /about-us/jobs
+                - paragraph [ref=e356]:
+                  - link "News" [ref=e357] [cursor=pointer]:
+                    - /url: /news
+                - paragraph [ref=e358]:
+                  - link "Pams" [ref=e359] [cursor=pointer]:
+                    - /url: /more/own-brands
+                - paragraph [ref=e360]:
+                  - link "SHOP'nGO" [ref=e361] [cursor=pointer]:
+                    - /url: /more/shop-n-go
+          - generic [ref=e362]:
+            - paragraph [ref=e363]: Follow us
+            - generic [ref=e364]:
+              - generic [ref=e365]:
+                - link "facebook" [ref=e366] [cursor=pointer]:
+                  - /url: https://www.facebook.com/PAKnSAVE/
+                - link "Instagram" [ref=e369] [cursor=pointer]:
+                  - /url: https://www.instagram.com/instickman/
+              - generic [ref=e372]:
+                - link "Here for NZ" [ref=e373] [cursor=pointer]:
+                  - /url: https://www.paknsave.co.nz/about-us/here-for-new-zealand
+                - link "Proudly NZ Owned" [ref=e386] [cursor=pointer]:
+                  - /url: https://www.paknsave.co.nz/about-us/
+          - generic [ref=e405]:
+            - paragraph [ref=e406]: Download the PAK'nSAVE app now
+            - generic [ref=e407]:
+              - link [ref=e408] [cursor=pointer]:
+                - /url: https://apps.apple.com/nz/app/paknsave/id1591352123
+                - img "App Store" [ref=e409]
+              - link [ref=e438] [cursor=pointer]:
+                - /url: https://play.google.com/store/apps/details?id=nz.co.paknsave.app&hl=en
+                - img "Google Play" [ref=e439]
+        - generic [ref=e459]:
+          - separator [ref=e460]
+          - generic [ref=e461]:
+            - button "Women’s Refuge" [ref=e463] [cursor=pointer]
+            - paragraph [ref=e475]: © 2026 PAK'nSAVE. All rights reserved.
+  - button [ref=e476] [cursor=pointer]
+  - alert [ref=e481]

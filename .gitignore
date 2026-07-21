@@ -1,6 +1,6 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
-*.py[codz]
+*.py[cod]
 *$py.class
 
 # C extensions
@@ -216,3 +216,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Hugging Face / Gradio deployment artifacts
+.gradio/
+.cache/
+playwright/.cache/
+node_modules/
+
+# Local deployment helpers
+*.tmp
+*.bak
+
+# Keep secrets out of the repo
+*.env
+.env.*

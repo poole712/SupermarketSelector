@@ -1,2 +1,6 @@
-# SupermarketSelector
-An Agentic powered Gradio application focued on giving people the best Supermarket options for groceries. 
+---
+title: SupermarketSelector
+app_file: app.py
+sdk: gradio
+sdk_version: 6.20.0
+---

@@ -1,0 +1,202 @@
+- generic [ref=e2]:
+  - generic [ref=e4]:
+    - banner [ref=e7]:
+      - link [ref=e9] [cursor=pointer]:
+        - /url: /
+        - 'img "Online Supermarket: Online Grocery Shopping & Free Recipes at woolworths.co.nz" [ref=e10]'
+      - navigation [ref=e14]:
+        - list [ref=e15]:
+          - listitem [ref=e16]:
+            - link "Contact" [ref=e17] [cursor=pointer]:
+              - /url: /about-us/contact-us
+          - listitem [ref=e18]:
+            - link "Stores" [ref=e19] [cursor=pointer]:
+              - /url: /store-finder
+          - listitem [ref=e20]:
+            - link "Everyday Rewards" [ref=e21] [cursor=pointer]:
+              - /url: https://account.woolworths.co.nz/everyday-rewards
+          - listitem [ref=e22]:
+            - button "Sign in or Register" [ref=e24] [cursor=pointer]
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - navigation [ref=e28]:
+          - list [ref=e29]:
+            - listitem [ref=e30]:
+              - button "Browse" [ref=e32] [cursor=pointer]
+            - listitem [ref=e34]:
+              - button "Specials & offers" [ref=e36] [cursor=pointer]
+            - listitem [ref=e38]:
+              - button "Favourites & lists" [ref=e40] [cursor=pointer]
+            - listitem [ref=e42]:
+              - link "Recipes" [ref=e43] [cursor=pointer]:
+                - /url: /recipes
+            - listitem [ref=e44]:
+              - link "Disney OOSHIES™" [ref=e45] [cursor=pointer]:
+                - /url: /shop/content/disney-ooshies
+        - generic [ref=e47]:
+          - generic [ref=e48]: Search for a product
+          - generic "Search" [ref=e50]:
+            - generic [ref=e51]:
+              - searchbox "Search for a product" [ref=e52]
+              - button "Submit search" [ref=e53] [cursor=pointer]
+          - generic:
+            - generic [ref=e57]: Select a search type
+            - combobox "Select a search type" [ref=e58] [cursor=pointer]:
+              - option "Grocery" [selected]
+              - option "Recipes"
+        - link [ref=e60] [cursor=pointer]:
+          - /url: //bookatimeslot
+          - paragraph [ref=e65]: Pick up or delivery?
+        - link "Review order or checkout $0.00" [ref=e67] [cursor=pointer]:
+          - /url: /reviewtrolley
+          - generic [ref=e68]: $0.00
+          - generic "0 items in basket" [ref=e73]: "0"
+      - generic [ref=e79]:
+        - text: Prices and stock availability may vary by location. You're seeing information for the
+        - strong [ref=e80]: Glenfield area
+        - text: .
+        - link "Change location" [ref=e81] [cursor=pointer]:
+          - /url: javascript:void(0)
+  - generic [ref=e83]:
+    - heading "Oops! That didn't go to plan" [level=1] [ref=e85]
+    - paragraph [ref=e86]: 404 page not found.
+    - link "Back to Homepage" [ref=e87] [cursor=pointer]:
+      - /url: /
+  - contentinfo [ref=e89]:
+    - generic [ref=e90]:
+      - generic [ref=e91]:
+        - generic [ref=e92]:
+          - heading "Save at Woolworths" [level=4] [ref=e93]
+          - list [ref=e94]:
+            - listitem [ref=e95]:
+              - link "Specials & offers" [ref=e96] [cursor=pointer]:
+                - /url: /shop/specials
+            - listitem [ref=e97]:
+              - link "Mailer" [ref=e98] [cursor=pointer]:
+                - /url: /shop/content/weeklymailer
+            - listitem [ref=e99]:
+              - link "Delivery saver" [ref=e100] [cursor=pointer]:
+                - /url: /deliverysubscription/plans
+            - listitem [ref=e101]:
+              - link "Boosts" [ref=e102] [cursor=pointer]:
+                - /url: https://account.woolworths.co.nz/everyday-rewards
+            - listitem [ref=e103]:
+              - link "Our pricing" [ref=e104] [cursor=pointer]:
+                - /url: /info/our-pricing
+        - generic [ref=e105]:
+          - heading "Stores and services" [level=4] [ref=e106]
+          - list [ref=e107]:
+            - listitem [ref=e108]:
+              - link "Store locations and hours" [ref=e109] [cursor=pointer]:
+                - /url: /store-finder
+            - listitem [ref=e110]:
+              - link "Online shopping" [ref=e111] [cursor=pointer]:
+                - /url: /info/online-shopping
+            - listitem [ref=e112]:
+              - link "Pharmacy" [ref=e113] [cursor=pointer]:
+                - /url: /info/services/pharmacy
+            - listitem [ref=e114]:
+              - link "Gift cards" [ref=e115] [cursor=pointer]:
+                - /url: /info/services/gift-cards
+            - listitem [ref=e116]:
+              - link "More services" [ref=e117] [cursor=pointer]:
+                - /url: /info/services
+        - generic [ref=e118]:
+          - heading "Customer service" [level=4] [ref=e119]
+          - list [ref=e120]:
+            - listitem [ref=e121]:
+              - link "My orders" [ref=e122] [cursor=pointer]:
+                - /url: account/orders
+            - listitem [ref=e123]:
+              - link "Manage account" [ref=e124] [cursor=pointer]:
+                - /url: /account
+            - listitem [ref=e125]:
+              - link "FAQs" [ref=e126] [cursor=pointer]:
+                - /url: /shop/content/faqs
+            - listitem [ref=e127]:
+              - link "Complaints and refunds" [ref=e128] [cursor=pointer]:
+                - /url: /info/policies/refund-policy
+            - listitem [ref=e129]:
+              - link "Contact us" [ref=e130] [cursor=pointer]:
+                - /url: /about-us/contact-us
+        - generic [ref=e131]:
+          - heading "About Woolworths NZ" [level=4] [ref=e132]
+          - list [ref=e133]:
+            - listitem [ref=e134]:
+              - link "About us" [ref=e135] [cursor=pointer]:
+                - /url: /info/about-us
+            - listitem [ref=e136]:
+              - link "Community and environment" [ref=e137] [cursor=pointer]:
+                - /url: /info/community-and-environment
+            - listitem [ref=e138]:
+              - link "Careers" [ref=e139] [cursor=pointer]:
+                - /url: https://careers.woolworthsgroup.com.au/en_GB/apply
+            - listitem [ref=e140]:
+              - link "News and media" [ref=e141] [cursor=pointer]:
+                - /url: /info/news-and-media-releases
+            - listitem [ref=e142]:
+              - link "Wholesale supply" [ref=e143] [cursor=pointer]:
+                - /url: /info/about-us/about-woolworths-nz
+      - generic [ref=e144]:
+        - generic [ref=e145]:
+          - heading "Get the Woolworths NZ app" [level=4] [ref=e146]
+          - generic [ref=e147]:
+            - link [ref=e148] [cursor=pointer]:
+              - /url: https://itunes.apple.com/nz/app/countdown-pick-up/id1278164689?mt=8
+              - img "Download on the App Store" [ref=e149]
+            - link [ref=e150] [cursor=pointer]:
+              - /url: https://play.google.com/store/apps/details?id=nz.co.countdown.android.pickup&hl=en
+              - img "Get it on Google Play" [ref=e151]
+        - generic [ref=e152]:
+          - heading "We're social..." [level=4] [ref=e153]
+          - generic [ref=e154]:
+            - link [ref=e155] [cursor=pointer]:
+              - /url: https://www.facebook.com/woolworthsnewzealand
+              - img "Facebook icon" [ref=e156]
+            - link [ref=e157] [cursor=pointer]:
+              - /url: https://www.pinterest.nz/woolworths_nz
+              - img "Pinterest icon" [ref=e158]
+            - link [ref=e159] [cursor=pointer]:
+              - /url: https://www.linkedin.com/company/woolworths-new-zealand
+              - img "LinkedIn icon" [ref=e160]
+            - link [ref=e161] [cursor=pointer]:
+              - /url: https://www.youtube.com/@woolworths_nz
+              - img "Youtube icon" [ref=e162]
+            - link [ref=e163] [cursor=pointer]:
+              - /url: https://www.instagram.com/woolworths_nz/
+              - img "Instagram icon" [ref=e164]
+            - link [ref=e165] [cursor=pointer]:
+              - /url: /
+              - img "shielded" [ref=e166]
+    - navigation [ref=e168]:
+      - list [ref=e169]:
+        - listitem [ref=e170]:
+          - link [ref=e171] [cursor=pointer]:
+            - /url: https://account.woolworths.co.nz/everyday-rewards
+            - img "Everyday Rewards" [ref=e173]
+        - listitem [ref=e174]:
+          - link [ref=e175] [cursor=pointer]:
+            - /url: https://bunch.woolworths.co.nz/s/home
+            - img "Bunch" [ref=e177]
+        - listitem [ref=e178]:
+          - link [ref=e179] [cursor=pointer]:
+            - /url: /info/about-us/about-woolworths-nz
+            - img "NZ Grocery Wholesalers" [ref=e181]
+    - generic [ref=e184]:
+      - generic [ref=e185]: © Woolworths New Zealand Limited 2026 - all rights reserved.
+      - list [ref=e186]:
+        - listitem [ref=e187]:
+          - link "Liquor licenses" [ref=e188] [cursor=pointer]:
+            - /url: /shop/content/liquor-licences
+        - listitem [ref=e189]:
+          - link "Pay remediation" [ref=e190] [cursor=pointer]:
+            - /url: /shop/content/holidays-act-remediation
+        - listitem [ref=e191]:
+          - link "Privacy centre" [ref=e192] [cursor=pointer]:
+            - /url: /info/privacy
+        - listitem [ref=e193]:
+          - link "Terms & conditions" [ref=e194] [cursor=pointer]:
+            - /url: /info/terms-and-conditions
+  - button "Olive Roundel Ask Olive" [ref=e196] [cursor=pointer]:
+    - img "Olive Roundel" [ref=e197]
+    - generic [ref=e198]: Ask Olive
