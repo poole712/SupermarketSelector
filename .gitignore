@@ -222,11 +222,16 @@ __marimo__/
 .cache/
 playwright/.cache/
 node_modules/
+.playwright-mcp/
 
 # Local deployment helpers
 *.tmp
 *.bak
+*.log
 
 # Keep secrets out of the repo
 *.env
 .env.*
+
+
+.ipynb
