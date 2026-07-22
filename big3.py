@@ -1,4 +1,4 @@
-from datetime import datetime
+from datetime import datetime, date
 import uuid
 
 from langchain.agents.middleware import AgentMiddleware, ModelCallLimitMiddleware, PIIMiddleware, TodoListMiddleware
@@ -10,8 +10,14 @@ from langchain_openai import ChatOpenAI
 
 from pydantic import BaseModel, Field
 from typing import Dict, Optional, Union
+import json
+import os
+import gradio as gr
 
 from tools import get_all_tools
+
+COUNTER_FILE = "call_counter.json"
+MAX_CALLS_PER_DAY = 10
 
 SYSTEM_PROMPT = f"""You are a careful supermarket price-finding assistant for New Zealand.
 Use the exact store list provided by the user. Do not substitute other stores, suburbs, or chains. If the user provides a region and a store list, you must search those exact stores first.
@@ -55,6 +61,25 @@ class Essentials(BaseModel):
     supermarkets: Dict[str, SupermarketEssentials] = Field(description="Keyed by the exact store name from the provided store list, for example 'PAK'nSAVE Kilbirnie'")
     cheapest: str = Field(description="The exact store name of the cheapest total supermarket")
     
+def _check_and_increment():
+    today = str(date.today())
+    if os.path.exists(COUNTER_FILE):
+        with open(COUNTER_FILE) as f:
+            data = json.load(f)
+    else:
+        data = {"date": today, "count": 0}
+    
+    if data["date"] != today:
+        data = {"date": today, "count": 0}
+        
+    if data["count"] >= MAX_CALLS_PER_DAY:
+        return False
+    
+    data["count"] += 1
+    with open(COUNTER_FILE, "w") as f:
+        json.dump(data, f)
+    return True
+
 def format_essentials(essentials: Essentials) -> str:
     lines = [f"## Essentials comparison - {essentials.region}\n"]
     item_names = {"milk_2L": "Milk 2L", "cheese_1kg": "Cheese 1KG", "mince_per_kg": "Mince per kg", "eggs_10_pack": "Eggs (10 pack)"}
@@ -100,6 +125,8 @@ class Big3:
         )
         
     async def get_prices(self, stores: list[str]):
+        if not _check_and_increment():
+            raise gr.Error("Daily limit reached - please try again tomorrow.")
         config = {"configurable": {"thread_id": f"big3-{uuid.uuid4()}"}}
         result = await self.worker.ainvoke({"messages": [{"role": "user", "content": f"Get the essentials from these New Zealand supermarket stores: {stores}. Find prices for all four items at each supermarket if possible. If an item is missing, only use null after trying multiple search variations and checking the site carefully."}]}, config)
         essentials: Essentials = result["structured_response"]
